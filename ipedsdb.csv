@@ -1,0 +1,964 @@
+Year,Survey,Title,dataSet,script
+2016,Institutional Characteristics,Directory information (preliminary release),HD2016_Data_Stata.zip,HD2016_Stata.zip
+2016,Institutional Characteristics,"Educational offerings, organization, services and athletic associations (preliminary release)",IC2016_Data_Stata.zip,IC2016_Stata.zip
+2016,Institutional Characteristics,Student charges for academic year programs (preliminary release),IC2016_AY_Data_Stata.zip,IC2016_AY_Stata.zip
+2016,Institutional Characteristics,Student charges by program (vocational programs) (preliminary release),IC2016_PY_Data_Stata.zip,IC2016_PY_Stata.zip
+2016,12-Month Enrollment,12-month unduplicated headcount: 2015-16(preliminary release),EFFY2016_Data_Stata.zip,EFFY2016_Stata.zip
+2016,12-Month Enrollment,12-month instructional activity: 2015-16(preliminary release),EFIA2016_Data_Stata.zip,EFIA2016_Stata.zip
+2016,Admissions and Test Scores,"Admission considerations, applications, admissions, enrollees and test scores, fall 2016(preliminary release)",ADM2016_Data_Stata.zip,ADM2016_Stata.zip
+2016,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: July 1, 2015 to June 30, 2016 (preliminary release)",C2016_A_Data_Stata.zip,C2016_A_Stata.zip
+2016,Completions,"Number of students receiving awards/degrees, by race/ethnicity and gender: July 1, 2015 to June 30, 2016(preliminary release)",C2016_B_Data_Stata.zip,C2016_B_Stata.zip
+2016,Completions,"Number of students receiving awards/degrees, by award level and by gender, race/ethnicity and age categories: July 1, 2015 to June 30, 2016(preliminary release)",C2016_C_Data_Stata.zip,C2016_C_Stata.zip
+2016,Completions,"Number of programs offered and number of programs offered via distance education, by award level: July 1, 2015 to June 30, 2016(preliminary release)",C2016DEP_Data_Stata.zip,C2016DEP_Stata.zip
+2016,Student Financial Aid and Net Price,Student financial aid and net price: 2015-16(preliminary release),SFA1516_Data_Stata.zip,SFA1516_Stata.zip
+2016,Student Financial Aid and Net Price,"Military Servicemembers and Veteran's Benefits, 2015-16 (preliminary release)",SFAV1516_Data_Stata.zip,SFAV1516_Stata.zip
+2016,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2010 (4-year) and cohort year 2013 (2-year) institutions(preliminary release)",GR2016_Data_Stata.zip,GR2016_Stata.zip
+2016,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2013 (less-than-2-year institutions) (preliminary release)",GR2016_L2_Data_Stata.zip,GR2016_L2_Stata.zip
+2016,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2008 (4-year) and cohort year 2012 (less-than-4-year)  institutions(preliminary release)",GR200_16_Data_Stata.zip,GR200_16_Stata.zip
+2016,Graduation Rates,"Graduation rate data for Pell Grant and Subsidized Stafford Loan recipients , 150% of normal time to complete  - cohort year 2010 (4-year) and cohort year 2013 (2-year)  institutions(preliminary release)",GR2016_PELL_SSL_Data_Stata.zip,GR2016_PELL_SSL_Stata.zip
+2016,Outcome Measures,Award and enrollment data at six and eight years for four entering undergraduate cohorts from 2008 -  degree granting institutions (preliminary release),OM2016_Data_Stata.zip,OM2016_Stata.zip
+2015,Institutional Characteristics,Directory information,HD2015_Data_Stata.zip,HD2015_Stata.zip
+2015,Institutional Characteristics,"Educational offerings, organization, services and athletic associations(revised November 2017)",IC2015_Data_Stata.zip,IC2015_Stata.zip
+2015,Institutional Characteristics,Student charges for academic year programs,IC2015_AY_Data_Stata.zip,IC2015_AY_Stata.zip
+2015,Institutional Characteristics,Student charges by program (vocational programs),IC2015_PY_Data_Stata.zip,IC2015_PY_Stata.zip
+2015,Institutional Characteristics,Response status for all survey components(revised November 2017),FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,12-Month Enrollment,12-month unduplicated headcount: 2014-15(revised November 2017),EFFY2015_Data_Stata.zip,EFFY2015_Stata.zip
+2015,12-Month Enrollment,12-month instructional activity: 2014-15(revised November 2017),EFIA2015_Data_Stata.zip,EFIA2015_Stata.zip
+2015,12-Month Enrollment,Response status for all survey components(revised November 2017),FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Admissions and Test Scores,"Admission considerations, applications, admissions, enrollees and test scores, fall 2015",ADM2015_Data_Stata.zip,ADM2015_Stata.zip
+2015,Admissions and Test Scores,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2015",EF2015A_Data_Stata.zip,EF2015A_Stata.zip
+2015,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2015",EF2015B_Data_Stata.zip,EF2015B_Stata.zip
+2015,Fall Enrollment,Residence and migration of first-time freshman: Fall 2015,EF2015C_Data_Stata.zip,EF2015C_Stata.zip
+2015,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2015",EF2015D_Data_Stata.zip,EF2015D_Stata.zip
+2015,Fall Enrollment,Distance education status and level of student: Fall 2015,EF2015A_DIST_Data_Stata.zip,EF2015A_DIST_Stata.zip
+2015,Fall Enrollment,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: July 1, 2014 to June 30, 2015(revised November 2017)",C2015_A_Data_Stata.zip,C2015_A_Stata.zip
+2015,Completions,"Number of students receiving awards/degrees, by race/ethnicity and gender: July 1, 2014 to June 30, 2015(revised November 2017)",C2015_B_Data_Stata.zip,C2015_B_Stata.zip
+2015,Completions,"Number of students receiving awards/degrees, by award level and by gender, race/ethnicity and age categories: July 1, 2014 to June 30, 2015(revised November 2017)",C2015_C_Data_Stata.zip,C2015_C_Stata.zip
+2015,Completions,"Number of programs offered and number of programs offered via distance education, by award level: July 1, 2014 to June 30, 2015(revised November 2017)",C2015DEP_Data_Stata.zip,C2015DEP_Stata.zip
+2015,Completions,Response status for all survey components(revised November 2017),FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Instructional Staff/Salaries,"Number and salary outlays for full-time nonmedical instructional staff, by  gender, and academic rank:  Academic year 2015-16",SAL2015_IS_Data_Stata.zip,SAL2015_IS_Stata.zip
+2015,Instructional Staff/Salaries,Number and salary outlays for full-time nonmedical noninstructional staff by occupation: Academic year 2015-16,SAL2015_NIS_Data_Stata.zip,SAL2015_NIS_Stata.zip
+2015,Instructional Staff/Salaries,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Fall Staff,"Full- and part-time staff by occupational category, race/ethnicity, and gender:  Fall 2015",S2015_OC_Data_Stata.zip,S2015_OC_Stata.zip
+2015,Fall Staff,"Full-time instructional staff, by faculty and tenure status, and academic rank  (Degree-granting institutions): Fall 2015",S2015_SIS_Data_Stata.zip,S2015_SIS_Stata.zip
+2015,Fall Staff,"Full-time instructional staff, by faculty and tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2015",S2015_IS_Data_Stata.zip,S2015_IS_Stata.zip
+2015,Fall Staff,"New hires by occupational category, race/ethnicity, and gender (Degree-granting institutions):  Fall 2015",S2015_NH_Data_Stata.zip,S2015_NH_Stata.zip
+2015,Fall Staff,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Employees by Assigned Position,"Number of staff by occupational category, faculty and tenure status:  Fall 2015",EAP2015_Data_Stata.zip,EAP2015_Stata.zip
+2015,Employees by Assigned Position,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Finance,Public institutions - GASB 34/35: Fiscal year 2015,F1415_F1A_Data_Stata.zip,F1415_F1A_Stata.zip
+2015,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2015,F1415_F2_Data_Stata.zip,F1415_F2_Stata.zip
+2015,Finance,Private for-profit institutions: Fiscal year 2015,F1415_F3_Data_Stata.zip,F1415_F3_Stata.zip
+2015,Finance,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Student Financial Aid and Net Price,Student financial aid and net price: 2014-15,SFA1415_Data_Stata.zip,SFA1415_Stata.zip
+2015,Student Financial Aid and Net Price,"Military Servicemembers and Veteran's Benefits, 2014-15",SFAV1415_Data_Stata.zip,SFAV1415_Stata.zip
+2015,Student Financial Aid and Net Price,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2009 (4-year) and cohort year 2012 (2-year) institutions",GR2015_Data_Stata.zip,GR2015_Stata.zip
+2015,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2012 (less-than-2-year institutions)",GR2015_L2_Data_Stata.zip,GR2015_L2_Stata.zip
+2015,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2007  (4-year) and cohort year 2011 (less-than-4-year)  institutions",GR200_15_Data_Stata.zip,GR200_15_Stata.zip
+2015,Graduation Rates,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2015,Academic Libraries,Academic Libaries: 2014-15,AL2015_Data_Stata.zip,AL2015_Stata.zip
+2015,Academic Libraries,Response status for all survey components,FLAGS2015_Data_Stata.zip,FLAGS2015_Stata.zip
+2014,Institutional Characteristics,Directory information,HD2014_Data_Stata.zip,HD2014_Stata.zip
+2014,Institutional Characteristics,"Educational offerings, organization, services and athletic associations(revised August 2016)",IC2014_Data_Stata.zip,IC2014_Stata.zip
+2014,Institutional Characteristics,Student charges for academic year programs,IC2014_AY_Data_Stata.zip,IC2014_AY_Stata.zip
+2014,Institutional Characteristics,Student charges by program (vocational programs),IC2014_PY_Data_Stata.zip,IC2014_PY_Stata.zip
+2014,Institutional Characteristics,Response status for all survey components(revised August 2016),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,12-Month Enrollment,12-month unduplicated headcount: 2013-14(revised August 2016),EFFY2014_Data_Stata.zip,EFFY2014_Stata.zip
+2014,12-Month Enrollment,12-month instructional activity: 2013-14(revised August 2016),EFIA2014_Data_Stata.zip,EFIA2014_Stata.zip
+2014,12-Month Enrollment,Response status for all survey components(revised August 2016),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Admissions and Test Scores,"Admission considerations, applications, admissions, enrollees and test scores, fall 2014(revised January 2017)",ADM2014_Data_Stata.zip,ADM2014_Stata.zip
+2014,Admissions and Test Scores,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2014(revised January 2017)",EF2014A_Data_Stata.zip,EF2014A_Stata.zip
+2014,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2014(revised January 2017)",EF2014CP_Data_Stata.zip,EF2014CP_Stata.zip
+2014,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2014(revised January 2017)",EF2014B_Data_Stata.zip,EF2014B_Stata.zip
+2014,Fall Enrollment,Residence and migration of first-time freshman: Fall 2014(revised January 2017),EF2014C_Data_Stata.zip,EF2014C_Stata.zip
+2014,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2014(revised January 2017)",EF2014D_Data_Stata.zip,EF2014D_Stata.zip
+2014,Fall Enrollment,Distance education status and level of student: Fall 2014(revised January 2017),EF2014A_DIST_Data_Stata.zip,EF2014A_DIST_Stata.zip
+2014,Fall Enrollment,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender:July 1, 2013 to June 30, 2014(revised August 2016)",C2014_A_Data_Stata.zip,C2014_A_Stata.zip
+2014,Completions,"Number of students receiving awards/degrees, by race/ethnicity and gender: July 1, 2013 to June 30, 2014 (revised August 2016)",C2014_B_Data_Stata.zip,C2014_B_Stata.zip
+2014,Completions,"Number of students receiving awards/degrees, by award level and by gender, race/ethnicity and age categories: July 1, 2013 to June 30, 2014(revised August 2016)",C2014_C_Data_Stata.zip,C2014_C_Stata.zip
+2014,Completions,"Number of programs offered and number of programs offered via distance education, by award level: July 1, 2013 to June 30, 2014(revised August 2016)",C2014DEP_Data_Stata.zip,C2014DEP_Stata.zip
+2014,Completions,Response status for all survey components(revised August 2016),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Instructional Staff/Salaries,"Number and salary outlays for full-time nonmedical instructional staff, by  gender, and academic rank:  Academic year 2014-15 (revised January 2017)",SAL2014_IS_Data_Stata.zip,SAL2014_IS_Stata.zip
+2014,Instructional Staff/Salaries,Number and salary outlays for full-time nonmedical noninstructional staff by occupation: Academic year 2014-15 (revised January 2017),SAL2014_NIS_Data_Stata.zip,SAL2014_NIS_Stata.zip
+2014,Instructional Staff/Salaries,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Fall Staff,"Full- and part-time staff by occupational category, race/ethnicity, and gender:  Fall 2014(revised January 2017)",S2014_OC_Data_Stata.zip,S2014_OC_Stata.zip
+2014,Fall Staff,"Full-time instructional staff, by faculty and tenure status, and academic rank  (Degree-granting institutions): Fall 2014(revised January 2017)",S2014_SIS_Data_Stata.zip,S2014_SIS_Stata.zip
+2014,Fall Staff,"Full-time instructional staff, by faculty and tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2014(revised January 2017)",S2014_IS_Data_Stata.zip,S2014_IS_Stata.zip
+2014,Fall Staff,"New hires by occupational category, race/ethnicity, and gender (Degree-granting institutions):  Fall 2014(revised January 2017)",S2014_NH_Data_Stata.zip,S2014_NH_Stata.zip
+2014,Fall Staff,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Employees by Assigned Position,"Number of staff by occupational category, faculty and tenure status:  Fall 2014(revised January 2017)",EAP2014_Data_Stata.zip,EAP2014_Stata.zip
+2014,Employees by Assigned Position,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Finance,Public institutions - GASB 34/35: Fiscal year 2014(revised January 2017),F1314_F1A_Data_Stata.zip,F1314_F1A_Stata.zip
+2014,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2014(revised January 2017),F1314_F2_Data_Stata.zip,F1314_F2_Stata.zip
+2014,Finance,Private for-profit institutions: Fiscal year 2014(revised January 2017),F1314_F3_Data_Stata.zip,F1314_F3_Stata.zip
+2014,Finance,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Student Financial Aid and Net Price,Student financial aid and net price: 2013-14(revised January 2017),SFA1314_Data_Stata.zip,SFA1314_Stata.zip
+2014,Student Financial Aid and Net Price,"Military Servicemembers and Veteran's Benefits, 2013-14(revised January 2017)",SFAV1314_Data_Stata.zip,SFAV1314_Stata.zip
+2014,Student Financial Aid and Net Price,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2008 (4-year) and cohort year 2011 (2-year) institutions(revised January 2017)",GR2014_Data_Stata.zip,GR2014_Stata.zip
+2014,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2011 (less-than-2-year institutions) (revised January 2017)",GR2014_L2_Data_Stata.zip,GR2014_L2_Stata.zip
+2014,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2006  (4-year) and cohort year 2010 (less-than-4-year)  institutions(revised January 2017)",GR200_14_Data_Stata.zip,GR200_14_Stata.zip
+2014,Graduation Rates,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2014,Academic Libraries,Academic Libaries: 2013-14(revised January 2017),AL2014_Data_Stata.zip,AL2014_Stata.zip
+2014,Academic Libraries,Response status for all survey components(revised January 2017),FLAGS2014_Data_Stata.zip,FLAGS2014_Stata.zip
+2013,Institutional Characteristics,Directory information,HD2013_Data_Stata.zip,HD2013_Stata.zip
+2013,Institutional Characteristics,"Educational offerings, admissions, organization,  services and athletic associations(revised August 2015)",IC2013_Data_Stata.zip,IC2013_Stata.zip
+2013,Institutional Characteristics,Student charges for academic year programs,IC2013_AY_Data_Stata.zip,IC2013_AY_Stata.zip
+2013,Institutional Characteristics,Student charges by program (vocational programs),IC2013_PY_Data_Stata.zip,IC2013_PY_Stata.zip
+2013,Institutional Characteristics,Response status for all survey components (revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,12-Month Enrollment,12-month unduplicated headcount: 2012-13 (revised August 2015),EFFY2013_Data_Stata.zip,EFFY2013_Stata.zip
+2013,12-Month Enrollment,12-month instructional activity: 2012-13(revised August 2015),EFIA2013_Data_Stata.zip,EFIA2013_Stata.zip
+2013,12-Month Enrollment,Response status for all survey components(revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations(revised August 2015)",IC2013_Data_Stata.zip,IC2013_Stata.zip
+2013,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2013 (revised January 2016)",EF2013A_Data_Stata.zip,EF2013A_Stata.zip
+2013,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2013 (revised January 2016)",EF2013B_Data_Stata.zip,EF2013B_Stata.zip
+2013,Fall Enrollment,Residence and migration of first-time freshman: Fall 2013 (revised January 2016),EF2013C_Data_Stata.zip,EF2013C_Stata.zip
+2013,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2013 (revised January 2016)",EF2013D_Data_Stata.zip,EF2013D_Stata.zip
+2013,Fall Enrollment,Distance education status and level of student: Fall 2013 (revised January 2016),EF2013A_DIST_Data_Stata.zip,EF2013A_DIST_Stata.zip
+2013,Fall Enrollment,Response status for all survey components (revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender:July 1, 2012 to June 30, 2013(revised August 2015)",C2013_A_Data_Stata.zip,C2013_A_Stata.zip
+2013,Completions,"Number of students receiving awards/degrees, by race/ethnicity and gender: July 1, 2012 to June 30, 2013(revised August 2015)",C2013_B_Data_Stata.zip,C2013_B_Stata.zip
+2013,Completions,"Number of students receiving awards/degrees, by award level and by gender, race/ethnicity and age categories: July 1, 2012 to June 30, 2013(revised August 2015)",C2013_C_Data_Stata.zip,C2013_C_Stata.zip
+2013,Completions,"Number of programs offered and number of programs offered via distance education, by award level: July 1, 2012 to June 30, 2013(revised August 2015)",C2013DEP_Data_Stata.zip,C2013DEP_Stata.zip
+2013,Completions,Response status for all survey components(revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Instructional Staff/Salaries,"Number and salary outlays for full-time nonmedical instructional staff, by  gender, and academic rank:  Academic year 2013-14 ( January 2016)",SAL2013_IS_Data_Stata.zip,SAL2013_IS_Stata.zip
+2013,Instructional Staff/Salaries,Number and salary outlays for full-time nonmedical noninstructional staff by occupation: Academic year 2013-14 (revised  January 2016),SAL2013_NIS_Data_Stata.zip,SAL2013_NIS_Stata.zip
+2013,Instructional Staff/Salaries,Response status for all survey components(revised  January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Fall Staff,"Full- and part-time staff by occupational category, race/ethnicity, and gender:  Fall 2013(revised  January 2016)",S2013_OC_Data_Stata.zip,S2013_OC_Stata.zip
+2013,Fall Staff,"Full-time instructional staff, by faculty and tenure status, and academic rank  (Degree-granting institutions): Fall 2013(revised  January 2016)",S2013_SIS_Data_Stata.zip,S2013_SIS_Stata.zip
+2013,Fall Staff,"Full-time instructional staff, by faculty and tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2013(revised  January 2016)",S2013_IS_Data_Stata.zip,S2013_IS_Stata.zip
+2013,Fall Staff,"New hires by occupational category, race/ethnicity, and gender (Degree-granting institutions):  Fall 2013(revised  January 2016)",S2013_NH_Data_Stata.zip,S2013_NH_Stata.zip
+2013,Fall Staff,Response status for all survey components(revised  January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Employees by Assigned Position,"Number of staff by occupational category, faculty and tenure status:  Fall 2013(revised  January 2016)",EAP2013_Data_Stata.zip,EAP2013_Stata.zip
+2013,Employees by Assigned Position,Response status for all survey components(revised  January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Finance,Public institutions - GASB 34/35: Fiscal year 2013(revised January 2016),F1213_F1A_Data_Stata.zip,F1213_F1A_Stata.zip
+2013,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2013(revised January 2016),F1213_F2_Data_Stata.zip,F1213_F2_Stata.zip
+2013,Finance,Private for-profit institutions: Fiscal year 2013(revised January 2016),F1213_F3_Data_Stata.zip,F1213_F3_Stata.zip
+2013,Finance,Response status for all survey components(revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Student Financial Aid and Net Price,Student financial aid and net price: 2012-13 (revised January 2016),SFA1213_Data_Stata.zip,SFA1213_Stata.zip
+2013,Student Financial Aid and Net Price,Response status for all survey components (revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2013,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2007 (4-year) and cohort year 2010 (2-year) institutions (revised January 2016)",GR2013_Data_Stata.zip,GR2013_Stata.zip
+2013,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2010 (less-than-2-year institutions) (revised January 2016)",GR2013_L2_Data_Stata.zip,GR2013_L2_Stata.zip
+2013,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2005  (4-year) and cohort year 2009 (less-than-4-year)  institutions (revised January 2016)",GR200_13_Data_Stata.zip,GR200_13_Stata.zip
+2013,Graduation Rates,Response status for all survey components (revised January 2016),FLAGS2013_Data_Stata.zip,FLAGS2013_Stata.zip
+2012,Institutional Characteristics,Directory information,HD2012_Data_Stata.zip,HD2012_Stata.zip
+2012,Institutional Characteristics,"Educational offerings, organization, admissions, services and athletic associations  (revised August 2014)",IC2012_Data_Stata.zip,IC2012_Stata.zip
+2012,Institutional Characteristics,Student charges for academic year programs,IC2012_AY_Data_Stata.zip,IC2012_AY_Stata.zip
+2012,Institutional Characteristics,Student charges by program (vocational programs),IC2012_PY_Data_Stata.zip,IC2012_PY_Stata.zip
+2012,Institutional Characteristics,Response status for all survey components (revised August 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,12-Month Enrollment,12-month unduplicated headcount: 2011-12  (revised August 2014),EFFY2012_Data_Stata.zip,EFFY2012_Stata.zip
+2012,12-Month Enrollment,12-month instructional activity: 2011-12  (revised August 2014),EFIA2012_Data_Stata.zip,EFIA2012_Stata.zip
+2012,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations  (revised August 2014)",IC2012_Data_Stata.zip,IC2012_Stata.zip
+2012,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2012 (revised December 2014)",EF2012A_Data_Stata.zip,EF2012A_Stata.zip
+2012,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2012 (revised December 2014)",EF2012CP_Data_Stata.zip,EF2012CP_Stata.zip
+2012,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2012 (revised December 2014)",EF2012B_Data_Stata.zip,EF2012B_Stata.zip
+2012,Fall Enrollment,Residence and migration of first-time freshman: Fall 2012 (revised December 2014),EF2012C_Data_Stata.zip,EF2012C_Stata.zip
+2012,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2012 (revised December 2014)",EF2012D_Data_Stata.zip,EF2012D_Stata.zip
+2012,Fall Enrollment,Distance education status and level of student: Fall 2012 (revised December 2014),EF2012A_DIST_Data_Stata.zip,EF2012A_DIST_Stata.zip
+2012,Fall Enrollment,Response status for all survey components(revised December 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender:July 1, 2011 to June 30, 2012  (revised August 2014)",C2012_A_Data_Stata.zip,C2012_A_Stata.zip
+2012,Completions,"Number of students receiving awards/degrees, by race/ethnicity and gender: July 1, 2011 to June 30, 2012  (revised August 2014)",C2012_B_Data_Stata.zip,C2012_B_Stata.zip
+2012,Completions,"Number of students receiving awards/degrees, by award level and by gender, race/ethnicity and age categories: July 1, 2011 to June 30, 2012  (revised August 2014)",C2012_C_Data_Stata.zip,C2012_C_Stata.zip
+2012,Completions,Response status for all survey components (revised August 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Instructional Staff/Salaries,"Number and salary outlays for full-time nonmedical instructional staff, by  gender, and academic rank:  Academic year 2012-13 (revised December 2014)",SAL2012_IS_Data_Stata.zip,SAL2012_IS_Stata.zip
+2012,Instructional Staff/Salaries,Number and salary outlays for full-time nonmedical  noninstructional staff by occupation: Academic year 2012-13 (revised December 2014),SAL2012_NIS_Data_Stata.zip,SAL2012_NIS_Stata.zip
+2012,Instructional Staff/Salaries,Response status for all survey components (revised December 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Fall Staff,"Full- and part-time staff by occupational category, race/ethnicity, and gender:  Fall 2012 (revised December 2014)",S2012_OC_Data_Stata.zip,S2012_OC_Stata.zip
+2012,Fall Staff,"Full-time instructional staff, by  faculty and tenure status, and academic rank  (Degree-granting institutions): Fall 2012 (revised December 2014)",S2012_SIS_Data_Stata.zip,S2012_SIS_Stata.zip
+2012,Fall Staff,"Full-time instructional staff, by faculty and tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2012 (revised December 2014)",S2012_IS_Data_Stata.zip,S2012_IS_Stata.zip
+2012,Fall Staff,"New hires by occupational category, race/ethnicity, and gender (Degree-granting institutions):  Fall 2012 (revised December 2014)",S2012_NH_Data_Stata.zip,S2012_NH_Stata.zip
+2012,Fall Staff,Response status for all survey components (revised December 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Employees by Assigned Position,"Number of staff by occupational category, faculty and tenure status:  Fall 2012(revised December 2014)",EAP2012_Data_Stata.zip,EAP2012_Stata.zip
+2012,Employees by Assigned Position,Response status for all survey components (revised December 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Finance,Public institutions - GASB 34/35: Fiscal year 2012 (revised December 2014),F1112_F1A_Data_Stata.zip,F1112_F1A_Stata.zip
+2012,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2012 (revised December 2014),F1112_F2_Data_Stata.zip,F1112_F2_Stata.zip
+2012,Finance,Private for-profit institutions: Fiscal year 2012 (revised December 2014),F1112_F3_Data_Stata.zip,F1112_F3_Stata.zip
+2012,Finance,Response status for all survey components (revised December 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Student Financial Aid and Net Price,Student financial aid and net price: 2011-12 (revised June 2014),SFA1112_Data_Stata.zip,SFA1112_Stata.zip
+2012,Student Financial Aid and Net Price,Response status for all survey components (revised August 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2012,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2006 (4-year) and cohort year 2009 (2-year) institutions(revised December 2014)",GR2012_Data_Stata.zip,GR2012_Stata.zip
+2012,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2009 (less-than-2-year institutions) (revised December 2014)",GR2012_L2_Data_Stata.zip,GR2012_L2_Stata.zip
+2012,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2004  (4-year) and cohort year 2008 (less-than-4-year)  institutions(revised December 2014)",GR200_12_Data_Stata.zip,GR200_12_Stata.zip
+2012,Graduation Rates,Response status for all survey components(revised December 2014),FLAGS2012_Data_Stata.zip,FLAGS2012_Stata.zip
+2011,Institutional Characteristics,Directory information,HD2011_Data_Stata.zip,HD2011_Stata.zip
+2011,Institutional Characteristics,"Educational offerings, organization, admissions, services and athletic associations (revised June 2013)",IC2011_Data_Stata.zip,IC2011_Stata.zip
+2011,Institutional Characteristics,Student charges for academic year programs  (revised June 2013),IC2011_AY_Data_Stata.zip,IC2011_AY_Stata.zip
+2011,Institutional Characteristics,Student charges by program (vocational programs)  (revised June 2013),IC2011_PY_Data_Stata.zip,IC2011_PY_Stata.zip
+2011,Institutional Characteristics,Response status for all survey components  (revised June 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,12-Month Enrollment,12-month unduplicated headcount: 2010-11  (revised June 2013),EFFY2011_Data_Stata.zip,EFFY2011_Stata.zip
+2011,12-Month Enrollment,12-month instructional activity: 2010-11  (revised June 2013),EFIA2011_Data_Stata.zip,EFIA2011_Stata.zip
+2011,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations (revised June 2013)",IC2011_Data_Stata.zip,IC2011_Stata.zip
+2011,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2011 (revised December 2013)",EF2011A_Data_Stata.zip,EF2011A_Stata.zip
+2011,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2011 (revised December 2013)",EF2011B_Data_Stata.zip,EF2011B_Stata.zip
+2011,Fall Enrollment,Residence and migration of first-time freshman: Fall 2011(revised December 2013),EF2011C_Data_Stata.zip,EF2011C_Stata.zip
+2011,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2011  (revised December 2013)",EF2011D_Data_Stata.zip,EF2011D_Stata.zip
+2011,Fall Enrollment,Response status for all survey components  (revised June 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: July 1, 2010 to June 30, 2011  (revised June 2013)",C2011_A_Data_Stata.zip,C2011_A_Stata.zip
+2011,Completions,Response status for all survey components  (revised June 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Instructional Staff/Salaries,"Salaries of full-time instructional staff, by contract length, gender, and academic rank: Academic year 2011-12 (revised December 2013)",SAL2011_A_Data_Stata.zip,SAL2011_A_Stata.zip
+2011,Instructional Staff/Salaries,"Faculty status of full-time instructional staff in 4-year institutions, by contract length, gender, and academic rank:  Academic year 2011-12 (revised December 2013)",SAL2011_Faculty_Data_Stata.zip,SAL2011_Faculty_Stata.zip
+2011,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2011-12 (revised December 2013)",SAL2011_A_LT9_Data_Stata.zip,SAL2011_A_LT9_Stata.zip
+2011,Instructional Staff/Salaries,Response status for all survey components (revised December 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011 (revised December 2013)",S2011_ABD_Data_Stata.zip,S2011_ABD_Stata.zip
+2011,Fall Staff,"Full-time instruction/research/public service staff, by faculty status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011 (revised December 2013)",S2011_F_Data_Stata.zip,S2011_F_Stata.zip
+2011,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2011 (revised December 2013)",S2011_G_Data_Stata.zip,S2011_G_Stata.zip
+2011,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2011",S2011_CN_Data_Stata.zip,S2011_CN_Stata.zip
+2011,Fall Staff,Response status for all survey components  (revised December 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2011",EAP2011_Data_Stata.zip,EAP2011_Stata.zip
+2011,Employees by Assigned Position,Response status for all survey components (revised December 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Finance,Public institutions - GASB 34/35: Fiscal year 2011 (revised December 2013),F1011_F1A_Data_Stata.zip,F1011_F1A_Stata.zip
+2011,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2011 (revised December 2013),F1011_F2_Data_Stata.zip,F1011_F2_Stata.zip
+2011,Finance,Private for-profit institutions: Fiscal year 2011 (revised December 2013),F1011_F3_Data_Stata.zip,F1011_F3_Stata.zip
+2011,Finance,Response status for all survey components (revised December 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Student Financial Aid and Net Price,Student financial aid and net price: 2010-11  (revised June 2013),SFA1011_Data_Stata.zip,SFA1011_Stata.zip
+2011,Student Financial Aid and Net Price,Response status for all survey components  (revised June 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2011,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2005 (4-year) and cohort year 2008 (2-year) institutions (revised December 2013)",GR2011_Data_Stata.zip,GR2011_Stata.zip
+2011,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2008 (less-than-2-year institutions)  (revised December 2013)",GR2011_L2_Data_Stata.zip,GR2011_L2_Stata.zip
+2011,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2003  (4-year) and cohort year 2007 (less-than-4-year)  institutions (revised December 2013)",GR200_11_Data_Stata.zip,GR200_11_Stata.zip
+2011,Graduation Rates,Response status for all survey components  (revised December 2013),FLAGS2011_Data_Stata.zip,FLAGS2011_Stata.zip
+2010,Institutional Characteristics,Directory information,HD2010_Data_Stata.zip,HD2010_Stata.zip
+2010,Institutional Characteristics,"Educational offerings, organization, admissions, services and athletic associations  (revised April 2012)",IC2010_Data_Stata.zip,IC2010_Stata.zip
+2010,Institutional Characteristics,Student charges for academic year programs  (revised April 2012),IC2010_AY_Data_Stata.zip,IC2010_AY_Stata.zip
+2010,Institutional Characteristics,Student charges by program (vocational programs)  (revised April 2012),IC2010_PY_Data_Stata.zip,IC2010_PY_Stata.zip
+2010,Institutional Characteristics,Response status for all survey components  (revised April 2012),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,12-Month Enrollment,12-month unduplicated headcount: 2009-10  (revised April 2012),EFFY2010_Data_Stata.zip,EFFY2010_Stata.zip
+2010,12-Month Enrollment,12-month instructional activity: 2009-10  (revised April 2012),EFIA2010_Data_Stata.zip,EFIA2010_Stata.zip
+2010,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations  (revised April 2012)",IC2010_Data_Stata.zip,IC2010_Stata.zip
+2010,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2010  (revised January 2013)",EF2010A_Data_Stata.zip,EF2010A_Stata.zip
+2010,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2010  (revised January 2013)",EF2010CP_Data_Stata.zip,EF2010CP_Stata.zip
+2010,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2010  (revised January 2013)",EF2010B_Data_Stata.zip,EF2010B_Stata.zip
+2010,Fall Enrollment,Residence and migration of first-time freshman: Fall 2010  (revised January 2013),EF2010C_Data_Stata.zip,EF2010C_Stata.zip
+2010,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2010  (revised January 2013)",EF2010D_Data_Stata.zip,EF2010D_Stata.zip
+2010,Fall Enrollment,Response status for all survey components (revised January 2013),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: July 1, 2009 to June 30, 2010  (revised April 2012)",C2010_A_Data_Stata.zip,C2010_A_Stata.zip
+2010,Completions,Response status for all survey components  (revised April 2012),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Instructional Staff/Salaries,"Salaries of full-time instructional staff, by contract length, gender, and academic rank: Academic year 2010-11  (revised January 2013)",SAL2010_A_Data_Stata.zip,SAL2010_A_Stata.zip
+2010,Instructional Staff/Salaries,"Fringe benefits of full-time instructional staff, by contract length: Academic year 2010-11  (revised January 2013)",SAL2010_B_Data_Stata.zip,SAL2010_B_Stata.zip
+2010,Instructional Staff/Salaries,"Faculty status of full-time instructional staff in 4-year institutions, by contract length, gender, and academic rank:  Academic year 2010-11 (revised January 2013)",SAL2010_FACULTY_Data_Stata.zip,SAL2010_FACULTY_Stata.zip
+2010,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2010-11  (revised January 2013)",SAL2010_A_LT9_Data_Stata.zip,SAL2010_A_LT9_Stata.zip
+2010,Instructional Staff/Salaries,Response status for all survey components,FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2010  (revised January 2013)",S2010_ABD_Data_Stata.zip,S2010_ABD_Stata.zip
+2010,Fall Staff,"Full-time instruction/research/public service staff, by faculty status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2010  (revised January 2013)",S2010_F_Data_Stata.zip,S2010_F_Stata.zip
+2010,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2010  (revised January 2013)",S2010_G_Data_Stata.zip,S2010_G_Stata.zip
+2010,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2010  (revised January 2013)",S2010_CN_Data_Stata.zip,S2010_CN_Stata.zip
+2010,Fall Staff,Response status for all survey components (revised January 2013),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2010  (revised January 2013)",EAP2010_Data_Stata.zip,EAP2010_Stata.zip
+2010,Employees by Assigned Position,Response status for all survey components (revised January 2013),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Finance,Public institutions - GASB 34/35: Fiscal year 2010  (revised January 2013),F0910_F1A_Data_Stata.zip,F0910_F1A_Stata.zip
+2010,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2010  (revised January 2013),F0910_F2_Data_Stata.zip,F0910_F2_Stata.zip
+2010,Finance,Private for-profit institutions: Fiscal year 2010  (revised January 2013),F0910_F3_Data_Stata.zip,F0910_F3_Stata.zip
+2010,Finance,Response status for all survey components (revised January 2013),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Student Financial Aid and Net Price,Student financial aid and net price: 2009-10  (revised April 2012),SFA0910_Data_Stata.zip,SFA0910_Stata.zip
+2010,Student Financial Aid and Net Price,Response status for all survey components (revised April 2012),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2010,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2004 (4-year) and cohort year 2007 (2-year) institutions  (revised January 2013)",GR2010_Data_Stata.zip,GR2010_Stata.zip
+2010,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2007 (less-than-2-year institutions)   (revised January 2013)",GR2010_L2_Data_Stata.zip,GR2010_L2_Stata.zip
+2010,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2002  (4-year) and cohort year 2006 (less-than-4-year)  institutions(revised January 2013)",GR200_10_Data_Stata.zip,GR200_10_Stata.zip
+2010,Graduation Rates,Response status for all survey components (revised January 2013),FLAGS2010_Data_Stata.zip,FLAGS2010_Stata.zip
+2009,Institutional Characteristics,Directory information,HD2009_Data_Stata.zip,HD2009_Stata.zip
+2009,Institutional Characteristics,"Educational offerings, organization, admissions, services and athletic associations (revised March 2012)",IC2009_Data_Stata.zip,IC2009_Stata.zip
+2009,Institutional Characteristics,Student charges for academic year programs (revised March 2012),IC2009_AY_Data_Stata.zip,IC2009_AY_Stata.zip
+2009,Institutional Characteristics,Student charges by program (vocational programs) (revised March 2012),IC2009_PY_Data_Stata.zip,IC2009_PY_Stata.zip
+2009,Institutional Characteristics,Response status for all survey components (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,12-Month Enrollment,12-month unduplicated headcount: 2008-09 (revised March 2012),EFFY2009_Data_Stata.zip,EFFY2009_Stata.zip
+2009,12-Month Enrollment,12-month instructional activity: 2008-09 (revised March 2012),EFIA2009_Data_Stata.zip,EFIA2009_Stata.zip
+2009,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations (revised March 2012)",IC2009_Data_Stata.zip,IC2009_Stata.zip
+2009,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2009 (revised March 2012)",EF2009A_Data_Stata.zip,EF2009A_Stata.zip
+2009,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2009 (revised March 2012)",EF2009B_Data_Stata.zip,EF2009B_Stata.zip
+2009,Fall Enrollment,Residence and migration of first-time freshman: Fall 2009 (revised March 2012),EF2009C_Data_Stata.zip,EF2009C_Stata.zip
+2009,Fall Enrollment,"Total entering class, retention rates, and student-to-faculty ratio: Fall 2009 (revised March 2012)",EF2009D_Data_Stata.zip,EF2009D_Stata.zip
+2009,Fall Enrollment,Estimated enrollment: Fall 2009,EFEST2009_Data_Stata.zip,EFEST2009_Stata.zip
+2009,Fall Enrollment,Response status for all survey components (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: July 1, 2008 to June 30, 2009 (revised March 2012)",C2009_A_Data_Stata.zip,C2009_A_Stata.zip
+2009,Completions,Response status for all survey components  (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Instructional Staff/Salaries,"Salaries of full-time instructional staff, by contract length, gender, and academic rank: Academic year 2009-10 revised March 2012",SAL2009_A_Data_Stata.zip,SAL2009_A_Stata.zip
+2009,Instructional Staff/Salaries,"Fringe benefits of full-time instructional staff, by contract length: Academic year 2009-10 revised March 2012",SAL2009_B_Data_Stata.zip,SAL2009_B_Stata.zip
+2009,Instructional Staff/Salaries,"Faculty status of full-time instructional staff in 4-year institutions, by contract length, gender, and academic rank:  Academic year 2009-10",SAL2009_FACULTY_Data_Stata.zip,SAL2009_FACULTY_Stata.zip
+2009,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2009-10 revised March 2012",SAL2009_A_LT9_Data_Stata.zip,SAL2009_A_LT9_Stata.zip
+2009,Instructional Staff/Salaries,Response status for all survey components  (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2009 revised March 2012",S2009_ABD_Data_Stata.zip,S2009_ABD_Stata.zip
+2009,Fall Staff,"Full-time instruction/research/public service staff, by faculty status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2009 revised March 2012",S2009_F_Data_Stata.zip,S2009_F_Stata.zip
+2009,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2009 revised March 2012",S2009_G_Data_Stata.zip,S2009_G_Stata.zip
+2009,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2009 revised March 2012",S2009_CN_Data_Stata.zip,S2009_CN_Stata.zip
+2009,Fall Staff,Response status for all survey components  (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2009 revised March 2012",EAP2009_Data_Stata.zip,EAP2009_Stata.zip
+2009,Finance,Public institutions - GASB 34/35: Fiscal year 2009 (revised April 2012),F0809_F1A_Data_Stata.zip,F0809_F1A_Stata.zip
+2009,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2009 (revised March 2012),F0809_F2_Data_Stata.zip,F0809_F2_Stata.zip
+2009,Finance,Private for-profit institutions: Fiscal year 2009 (revised March 2012),F0809_F3_Data_Stata.zip,F0809_F3_Stata.zip
+2009,Finance,Response status for all survey components (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Student Financial Aid and Net Price,Student financial aid and net price: 2008-09 (revised March 2012),SFA0809_Data_Stata.zip,SFA0809_Stata.zip
+2009,Student Financial Aid and Net Price,Response status for all survey components (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2003 (4-year) and cohort year 2006 (2-year) institutions (revised March 2012)",GR2009_Data_Stata.zip,GR2009_Stata.zip
+2009,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2006 (less-than-2-year institutions)  (revised March 2012)",GR2009_L2_Data_Stata.zip,GR2009_L2_Stata.zip
+2009,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2001  (4-year) and cohort year 2005 (less-than-4-year)  institutions (revised March 2012)",GR200_09_Data_Stata.zip,GR200_09_Stata.zip
+2009,Graduation Rates,Response status for all survey components (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2009,Employees by Assigned Position,Response status for all survey components  (revised April 2012),FLAGS2009_Data_Stata.zip,FLAGS2009_Stata.zip
+2008,Institutional Characteristics,Directory information,HD2008_Data_Stata.zip,HD2008_Stata.zip
+2008,Institutional Characteristics,"Educational offerings, organization, admissions, services and athletic associations(revised April 2016)",IC2008_Data_Stata.zip,IC2008_Stata.zip
+2008,Institutional Characteristics,Student charges for academic year programs,IC2008_AY_Data_Stata.zip,IC2008_AY_Stata.zip
+2008,Institutional Characteristics,Student charges by program (vocational programs),IC2008_PY_Data_Stata.zip,IC2008_PY_Stata.zip
+2008,Institutional Characteristics,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,12-Month Enrollment,12-month unduplicated headcount: 2007-08 (revised April 2016),EFFY2008_Data_Stata.zip,EFFY2008_Stata.zip
+2008,12-Month Enrollment,12-month instructional activity: 2007-08 (revised April 2016),EFIA2008_Data_Stata.zip,EFIA2008_Stata.zip
+2008,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations(revised May 2017)",IC2008_Data_Stata.zip,IC2008_Stata.zip
+2008,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2008(revised April 2016)",EF2008A_Data_Stata.zip,EF2008A_Stata.zip
+2008,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2008(revised April 2016)",EF2008CP_Data_Stata.zip,EF2008CP_Stata.zip
+2008,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2008(revised April 2016)",EF2008B_Data_Stata.zip,EF2008B_Stata.zip
+2008,Fall Enrollment,Residence and migration of first-time freshman: Fall 2008(revised April 2016),EF2008C_Data_Stata.zip,EF2008C_Stata.zip
+2008,Fall Enrollment,Total entering class and retention rates: Fall 2008(revised April 2016),EF2008D_Data_Stata.zip,EF2008D_Stata.zip
+2008,Fall Enrollment,Estimated enrollment: Fall 2008,EFEST2008_Data_Stata.zip,EFEST2008_Stata.zip
+2008,Fall Enrollment,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: July 1, 2007 to June 30, 2008 (revised April 2016)",C2008_A_Data_Stata.zip,C2008_A_Stata.zip
+2008,Completions,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Instructional Staff/Salaries,"Salaries of full-time instructional faculty, by contract length, gender, and academic rank: Academic year 2008-09 (revised April 2016)",SAL2008_A_Data_Stata.zip,SAL2008_A_Stata.zip
+2008,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length: Academic year 2008-09(revised April 2016)",SAL2008_B_Data_Stata.zip,SAL2008_B_Stata.zip
+2008,Instructional Staff/Salaries,"Tenure status of full-time instructional faculty in 4-year institutions, by contract length, gender, and academic rank:  Academic year 2008-09(revised April 2016)",SAL2008_FACULTY_Data_Stata.zip,SAL2008_FACULTY_Stata.zip
+2008,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2008-09(revised April 2016)",SAL2008_A_LT9_Data_Stata.zip,SAL2008_A_LT9_Stata.zip
+2008,Instructional Staff/Salaries,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2008(revised April 2016)",S2008_ABD_Data_Stata.zip,S2008_ABD_Stata.zip
+2008,Fall Staff,"Full-time instruction/research/public service staff, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2008(revised April 2016)",S2008_F_Data_Stata.zip,S2008_F_Stata.zip
+2008,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2008(revised April 2016)",S2008_G_Data_Stata.zip,S2008_G_Stata.zip
+2008,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2008(revised April 2016)",S2008_CN_Data_Stata.zip,S2008_CN_Stata.zip
+2008,Fall Staff,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2008(revised April 2016)",EAP2008_Data_Stata.zip,EAP2008_Stata.zip
+2008,Employees by Assigned Position,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Finance,Public institutions - GASB 34/35: Fiscal year 2008(revised April 2016),F0708_F1A_Data_Stata.zip,F0708_F1A_Stata.zip
+2008,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2008(revised April 2016),F0708_F2_Data_Stata.zip,F0708_F2_Stata.zip
+2008,Finance,Private for-profit institutions: Fiscal year 2008(revised April 2016),F0708_F3_Data_Stata.zip,F0708_F3_Stata.zip
+2008,Finance,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Student Financial Aid and Net Price,Student financial aid: Acacemic year 2007-08(revised April 2016),SFA0708_Data_Stata.zip,SFA0708_Stata.zip
+2008,Student Financial Aid and Net Price,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2008,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2002 (4-year) and cohort year 2005 (2-year) institutions (revised April 2016)",GR2008_Data_Stata.zip,GR2008_Stata.zip
+2008,Graduation Rates,"Graduation rate data, 150% of normal time to complete - cohort year 2005 (less-than-2-year institutions) (revised April 2016)",GR2008_L2_Data_Stata.zip,GR2008_L2_Stata.zip
+2008,Graduation Rates,"Graduation rate data, 200% of normal time to complete - cohort year 2000  (4-year) and cohort year 2004 (less-than-4-year)  institutions (revised April 2016)",GR200_08_Data_Stata.zip,GR200_08_Stata.zip
+2008,Graduation Rates,Response status for all survey components(revised April 2016),FLAGS2008_Data_Stata.zip,FLAGS2008_Stata.zip
+2007,Institutional Characteristics,Directory information,HD2007_Data_Stata.zip,HD2007_Stata.zip
+2007,Institutional Characteristics,"Educational offerings, organization, admissions, services and athletic associations",IC2007_Data_Stata.zip,IC2007_Stata.zip
+2007,Institutional Characteristics,Student charges for academic year programs,IC2007_AY_Data_Stata.zip,IC2007_AY_Stata.zip
+2007,Institutional Characteristics,Student charges by program (vocational programs),IC2007_PY_Data_Stata.zip,IC2007_PY_Stata.zip
+2007,Institutional Characteristics,Institutions's mission statement,IC2007Mission_Data_Stata.zip,IC2007Mission_Stata.zip
+2007,Institutional Characteristics,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,12-Month Enrollment,12-month unduplicated headcount: 2006-07(revised May 2017),EFFY2007_Data_Stata.zip,EFFY2007_Stata.zip
+2007,12-Month Enrollment,12-month instructional activity: 2006-07(revised May 2017),EFIA2007_Data_Stata.zip,EFIA2007_Stata.zip
+2007,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations",IC2007_Data_Stata.zip,IC2007_Stata.zip
+2007,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2007(revised May 2017)",EF2007A_Data_Stata.zip,EF2007A_Stata.zip
+2007,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2007(revised May 2017)",EF2007B_Data_Stata.zip,EF2007B_Stata.zip
+2007,Fall Enrollment,Residence and migration of first-time freshman: Fall 2007(revised May 2017),EF2007C_Data_Stata.zip,EF2007C_Stata.zip
+2007,Fall Enrollment,Total entering class and retention rates: Fall 2007(revised May 2017),EF2007D_Data_Stata.zip,EF2007D_Stata.zip
+2007,Fall Enrollment,Estimated enrollment: Fall 2007,EFEST2007_Data_Stata.zip,EFEST2007_Stata.zip
+2007,Fall Enrollment,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2006-07(revised May 2017)",C2007_A_Data_Stata.zip,C2007_A_Stata.zip
+2007,Completions,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Instructional Staff/Salaries,"Salaries of full-time instructional faculty, by contract length, gender, and academic rank: Academic year 2007-08(revised May 2017)",SAL2007_A_Data_Stata.zip,SAL2007_A_Stata.zip
+2007,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length: Academic year 2007-08(revised May 2017)",SAL2007_B_Data_Stata.zip,SAL2007_B_Stata.zip
+2007,Instructional Staff/Salaries,"Tenure status of full-time instructional faculty in 4-year institutions, by contract length, gender, and academic rank:  Academic year 2007-08(revised May 2017)",SAL2007_FACULTY_Data_Stata.zip,SAL2007_FACULTY_Stata.zip
+2007,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2007-08(revised May 2017)",SAL2007_A_LT9_Data_Stata.zip,SAL2007_A_LT9_Stata.zip
+2007,Instructional Staff/Salaries,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2007(revised May 2017)",S2007_ABD_Data_Stata.zip,S2007_ABD_Stata.zip
+2007,Fall Staff,"Full-time instruction/research/public service staff, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2007(revised May 2017)",S2007_F_Data_Stata.zip,S2007_F_Stata.zip
+2007,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2007(revised May 2017)",S2007_G_Data_Stata.zip,S2007_G_Stata.zip
+2007,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2007(revised May 2017)",S2007_CN_Data_Stata.zip,S2007_CN_Stata.zip
+2007,Fall Staff,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2007(revised May 2017)",EAP2007_Data_Stata.zip,EAP2007_Stata.zip
+2007,Employees by Assigned Position,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Finance,Public institutions - GASB 34/35: Fiscal year 2007(revised May 2017),F0607_F1A_Data_Stata.zip,F0607_F1A_Stata.zip
+2007,Finance,Public institutions - GASB 34/35 (Component units using FASB): Fiscal year 2007(revised May 2017),F0607_F1A_F_Data_Stata.zip,F0607_F1A_F_Stata.zip
+2007,Finance,Public institutions - GASB 34/35 (Component units using GASB): Fiscal year 2007(revised May 2017),F0607_F1A_G_Data_Stata.zip,F0607_F1A_G_Stata.zip
+2007,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2007(revised May 2017),F0607_F2_Data_Stata.zip,F0607_F2_Stata.zip
+2007,Finance,Private for-profit institutions: Fiscal year 2007(revised May 2017),F0607_F3_Data_Stata.zip,F0607_F3_Stata.zip
+2007,Finance,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Student Financial Aid and Net Price,Student financial aid: Academic year 2006-07(revised May 2017),SFA0607_Data_Stata.zip,SFA0607_Stata.zip
+2007,Student Financial Aid and Net Price,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2007,Graduation Rates,Graduation rate data for cohort year 2001 (4-year) and cohort year 2004 (2-year) institutions(revised May 2017),GR2007_Data_Stata.zip,GR2007_Stata.zip
+2007,Graduation Rates,Graduation rate data for cohort year 2004 (less-than-2-year institutions)(revised May 2017),GR2007_L2_Data_Stata.zip,GR2007_L2_Stata.zip
+2007,Graduation Rates,Response status for all survey components(revised May 2017),FLAGS2007_Data_Stata.zip,FLAGS2007_Stata.zip
+2006,Institutional Characteristics,Directory infomation,HD2006_Data_Stata.zip,HD2006_Stata.zip
+2006,Institutional Characteristics,"Educational offerings,organization, admissions, services and athletic associations",IC2006_Data_Stata.zip,IC2006_Stata.zip
+2006,Institutional Characteristics,Student charges for academic year programs,IC2006_AY_Data_Stata.zip,IC2006_AY_Stata.zip
+2006,Institutional Characteristics,Student charges by program (vocational programs),IC2006_PY_Data_Stata.zip,IC2006_PY_Stata.zip
+2006,Institutional Characteristics,Insitutions's mission statement,IC2006Mission_Data_Stata.zip,IC2006Mission_Stata.zip
+2006,Institutional Characteristics,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,12-Month Enrollment,12-month unduplicated headcount: 2005-06,EFFY2006_Data_Stata.zip,EFFY2006_Stata.zip
+2006,12-Month Enrollment,12-month instructional activity: 2005-06,EFIA2006_Data_Stata.zip,EFIA2006_Stata.zip
+2006,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations",IC2006_Data_Stata.zip,IC2006_Stata.zip
+2006,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2006",EF2006A_Data_Stata.zip,EF2006A_Stata.zip
+2006,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2006",EF2006CP_Data_Stata.zip,EF2006CP_Stata.zip
+2006,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2006",EF2006B_Data_Stata.zip,EF2006B_Stata.zip
+2006,Fall Enrollment,Residence and migration of first-time freshman: Fall 2006,EF2006C_Data_Stata.zip,EF2006C_Stata.zip
+2006,Fall Enrollment,Total entering class and retention rates: Fall 2006,EF2006D_Data_Stata.zip,EF2006D_Stata.zip
+2006,Fall Enrollment,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2005-06",C2006_A_Data_Stata.zip,C2006_A_Stata.zip
+2006,Completions,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Instructional Staff/Salaries,"Salaries of full-time instructional faculty, by contract length, gender, and academic rank: Academic year 2006-07",SAL2006_A_Data_Stata.zip,SAL2006_A_Stata.zip
+2006,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length: Academic year 2006-07",SAL2006_B_Data_Stata.zip,SAL2006_B_Stata.zip
+2006,Instructional Staff/Salaries,"Tenure status of full-time instructional faculty in 4-year institutions, by contract length, gender, and academic rank:  Academic year 2006-07",SAL2006_FACULTY_Data_Stata.zip,SAL2006_FACULTY_Stata.zip
+2006,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2006-07",SAL2006_A_LT9_Data_Stata.zip,SAL2006_A_LT9_Stata.zip
+2006,Instructional Staff/Salaries,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2006",S2006_ABD_Data_Stata.zip,S2006_ABD_Stata.zip
+2006,Fall Staff,"Full-time instruction/research/public service staff, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions with 15 or more full-time employees): Fall 2006",S2006_F_Data_Stata.zip,S2006_F_Stata.zip
+2006,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions): Fall 2006",S2006_G_Data_Stata.zip,S2006_G_Stata.zip
+2006,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions with less than 15 full-time employees and all nondegree-granting institutions): Fall 2006",S2006_CN_Data_Stata.zip,S2006_CN_Stata.zip
+2006,Fall Staff,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2006",EAP2006_Data_Stata.zip,EAP2006_Stata.zip
+2006,Employees by Assigned Position,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Finance,Public institutions - GASB 34/35: Fiscal year 2006,F0506_F1A_Data_Stata.zip,F0506_F1A_Stata.zip
+2006,Finance,Public institutions - GASB 34/35 (Component units using FASB): Fiscal year 2006,F0506_F1A_F_Data_Stata.zip,F0506_F1A_F_Stata.zip
+2006,Finance,Public institutions - GASB 34/35 (Component units using GASB): Fiscal year 2006,F0506_F1A_G_Data_Stata.zip,F0506_F1A_G_Stata.zip
+2006,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2006,F0506_F2_Data_Stata.zip,F0506_F2_Stata.zip
+2006,Finance,Private for-profit institutions: Fiscal year 2006,F0506_F3_Data_Stata.zip,F0506_F3_Stata.zip
+2006,Finance,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Student Financial Aid and Net Price,Student financial aid: Academic year 2005-06,SFA0506_Data_Stata.zip,SFA0506_Stata.zip
+2006,Student Financial Aid and Net Price,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2006,Graduation Rates,Graduation  rate data for cohort year 2000 (4-year) and cohort year 2003 (2-year) institutions,GR2006_Data_Stata.zip,GR2006_Stata.zip
+2006,Graduation Rates,"Graduation rate data by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 2000 (4-year) and cohort year 2003 (2-year) institutions",GR2006ATH_Data_Stata.zip,GR2006ATH_Stata.zip
+2006,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 2005-06 (4-year and 2-year institutions),GR2006_ATH_AID_Data_Stata.zip,GR2006_ATH_AID_Stata.zip
+2006,Graduation Rates,Graduation rate data for cohort year 2003 (less-than-2-year institutions),GR2006_L2_Data_Stata.zip,GR2006_L2_Stata.zip
+2006,Graduation Rates,Response status for all survey components,FLAGS2006_Data_Stata.zip,FLAGS2006_Stata.zip
+2005,Institutional Characteristics,Directory information,HD2005_Data_Stata.zip,HD2005_Stata.zip
+2005,Institutional Characteristics,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Institutional Characteristics,"Educational offerings,organization,  admissions, services and athletic associations",IC2005_Data_Stata.zip,IC2005_Stata.zip
+2005,Institutional Characteristics,Student charges for academic year programs,IC2005_AY_Data_Stata.zip,IC2005_AY_Stata.zip
+2005,Institutional Characteristics,Student charges by program (vocational programs),IC2005_PY_Data_Stata.zip,IC2005_PY_Stata.zip
+2005,Institutional Characteristics,Institution's mission statement,IC2005Mission_Data_Stata.zip,IC2005Mission_Stata.zip
+2005,12-Month Enrollment,12-month unduplicated headcount: 2004-05,EFFY2005_Data_Stata.zip,EFFY2005_Stata.zip
+2005,12-Month Enrollment,12-month instructional activity: 2004-05,EFIA2005_Data_Stata.zip,EFIA2005_Stata.zip
+2005,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations",IC2005_Data_Stata.zip,IC2005_Stata.zip
+2005,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2005",EF2005A_Data_Stata.zip,EF2005A_Stata.zip
+2005,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2005",EF2005B_Data_Stata.zip,EF2005B_Stata.zip
+2005,Fall Enrollment,Residence and migration of first-time freshman: Fall 2005,EF2005C_Data_Stata.zip,EF2005C_Stata.zip
+2005,Fall Enrollment,Total entering class and retention rates: Fall 2005,EF2005D_Data_Stata.zip,EF2005D_Stata.zip
+2005,Fall Enrollment,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2004-05",C2005_A_Data_Stata.zip,C2005_A_Stata.zip
+2005,Completions,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Instructional Staff/Salaries,"Salaries of full-time instructional faculty, by contract length, gender, and academic rank: Academic year 2005-06",SAL2005_A_Data_Stata.zip,SAL2005_A_Stata.zip
+2005,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length: Academic year 2005-06",SAL2005_B_Data_Stata.zip,SAL2005_B_Stata.zip
+2005,Instructional Staff/Salaries,"Number of full-time instructional faculty with less than 9-month contracts, by gender and academic rank: Academic year 2005-06",SAL2005_A_LT9_Data_Stata.zip,SAL2005_A_LT9_Stata.zip
+2005,Instructional Staff/Salaries,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (Degree-granting institutions): Fall 2005",S2005_ABD_Data_Stata.zip,S2005_ABD_Stata.zip
+2005,Fall Staff,"Full-time faculty, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2005",S2005_F_Data_Stata.zip,S2005_F_Stata.zip
+2005,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions): Fall 2005",S2005_G_Data_Stata.zip,S2005_G_Stata.zip
+2005,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Nondegree-granting institutions): Fall 2005",S2005_CN_Data_Stata.zip,S2005_CN_Stata.zip
+2005,Fall Staff,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2005",EAP2005_Data_Stata.zip,EAP2005_Stata.zip
+2005,Employees by Assigned Position,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Finance,Public institutions - GASB 34/35: Fiscal year 2005,F0405_F1A_Data_Stata.zip,F0405_F1A_Stata.zip
+2005,Finance,Public institutions - GASB 34/35 (Component units using FASB): Fiscal year 2005,F0405_F1A_F_Data_Stata.zip,F0405_F1A_F_Stata.zip
+2005,Finance,Public institutions - GASB 34/35 (Component units using GASB): Fiscal year 2005,F0405_F1A_G_Data_Stata.zip,F0405_F1A_G_Stata.zip
+2005,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2005,F0405_F2_Data_Stata.zip,F0405_F2_Stata.zip
+2005,Finance,Private for-profit institutions: Fiscal year 2005,F0405_F3_Data_Stata.zip,F0405_F3_Stata.zip
+2005,Finance,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Student Financial Aid and Net Price,Student financial aid: Academic year 2004-05,SFA0405_Data_Stata.zip,SFA0405_Stata.zip
+2005,Student Financial Aid and Net Price,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Graduation Rates,Graduation rate data for cohort year 1999 (4-year) and cohort year 2002 (2-year) institutions,GR2005_Data_Stata.zip,GR2005_Stata.zip
+2005,Graduation Rates,Graduation rate data for cohort year 2002 (less-than-2-year institutions),GR2005_L2_Data_Stata.zip,GR2005_L2_Stata.zip
+2005,Graduation Rates,"Graduation rate data by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1999 (4-year) and cohort year 2002 (2-year) institutions",GR2005ATH_Data_Stata.zip,GR2005ATH_Stata.zip
+2005,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 2004-05 (4-year and 2-year institutions),GR2005_ATH_AID_Data_Stata.zip,GR2005_ATH_AID_Stata.zip
+2005,Graduation Rates,Response status for all survey components,FLAGS2005_Data_Stata.zip,FLAGS2005_Stata.zip
+2005,Frequently used/Derived variables,Variables from the 2005 data collection presented in the 2006 IPEDS Data Feedback Report,DFR2005_Data_Stata.zip,DFR2005_Stata.zip
+2004,Institutional Characteristics,Directory information,HD2004_Data_Stata.zip,HD2004_Stata.zip
+2004,Institutional Characteristics,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Institutional Characteristics,"Educational offerings,organization, accreditation, admissions, services and athletic associations",IC2004_Data_Stata.zip,IC2004_Stata.zip
+2004,Institutional Characteristics,Student charges for academic year programs,IC2004_AY_Data_Stata.zip,IC2004_AY_Stata.zip
+2004,Institutional Characteristics,Student charges by program (vocational programs),IC2004_PY_Data_Stata.zip,IC2004_PY_Stata.zip
+2004,Institutional Characteristics,Instiution's mission statement,IC2004Mission_Data_Stata.zip,IC2004Mission_Stata.zip
+2004,12-Month Enrollment,12-month unduplicated headcount: 2003-04,EFFY2004_Data_Stata.zip,EFFY2004_Stata.zip
+2004,12-Month Enrollment,12-month instructional activity: 2003-04,EFIA2004_Data_Stata.zip,EFIA2004_Stata.zip
+2004,Admissions and Test Scores,"Educational offerings, organization, applications, admissions, enrollees, test scores, services and athletic associations",IC2004_Data_Stata.zip,IC2004_Stata.zip
+2004,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2004",EF2004A_Data_Stata.zip,EF2004A_Stata.zip
+2004,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2004",EF2004CP_Data_Stata.zip,EF2004CP_Stata.zip
+2004,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2004",EF2004B_Data_Stata.zip,EF2004B_Stata.zip
+2004,Fall Enrollment,Residence and migration of first-time freshman: Fall 2004,EF2004C_Data_Stata.zip,EF2004C_Stata.zip
+2004,Fall Enrollment,Total entering class and retention rates: Fall 2004,EF2004D_Data_Stata.zip,EF2004D_Stata.zip
+2004,Fall Enrollment,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2003-04",C2004_A_Data_Stata.zip,C2004_A_Stata.zip
+2004,Completions,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Instructional Staff/Salaries,"Salaries of full-time instructional faculty, by contract length, gender, and academic rank: Academic year 2004-05",SAL2004_A_Data_Stata.zip,SAL2004_A_Stata.zip
+2004,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length: Academic year 2004-05",SAL2004_B_Data_Stata.zip,SAL2004_B_Stata.zip
+2004,Instructional Staff/Salaries,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions): Fall 2004",S2004_ABD_Data_Stata.zip,S2004_ABD_Stata.zip
+2004,Fall Staff,"Full-time faculty, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2004",S2004_F_Data_Stata.zip,S2004_F_Stata.zip
+2004,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions): Fall 2004",S2004_G_Data_Stata.zip,S2004_G_Stata.zip
+2004,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Nondegree-granting institutions): Fall 2004",S2004_CN_Data_Stata.zip,S2004_CN_Stata.zip
+2004,Fall Staff,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2004",EAP2004_Data_Stata.zip,EAP2004_Stata.zip
+2004,Employees by Assigned Position,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Finance,Public institutions - GASB 34/35: Fiscal year 2004,F0304_F1A_Data_Stata.zip,F0304_F1A_Stata.zip
+2004,Finance,Public institutions - GASB 34/35 (Component units using FASB): Fiscal year 2004,F0304_F1A_F_Data_Stata.zip,F0304_F1A_F_Stata.zip
+2004,Finance,Public institutions - GASB 34/35 (Component units using GASB): Fiscal year 2004,F0304_F1A_G_Data_Stata.zip,F0304_F1A_G_Stata.zip
+2004,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2004,F0304_F2_Data_Stata.zip,F0304_F2_Stata.zip
+2004,Finance,Private for-profit institutions: Fiscal year 2004,F0304_F3_Data_Stata.zip,F0304_F3_Stata.zip
+2004,Finance,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Student Financial Aid and Net Price,Student financial aid: Academic year 2003-04,SFA0304_Data_Stata.zip,SFA0304_Stata.zip
+2004,Student Financial Aid and Net Price,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2004,Graduation Rates,Graduation rate data for cohort year 1998 (4-year) and cohort year 2001 (2-year) institutions,GR2004_Data_Stata.zip,GR2004_Stata.zip
+2004,Graduation Rates,Graduation rate data for cohort year 2001 (less-than-2-year institutions),GR2004_L2_Data_Stata.zip,GR2004_L2_Stata.zip
+2004,Graduation Rates,"Graduation rate data by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1998 (4-year) and cohort year 2001 (2-year) institutions",GR2004ATH_Data_Stata.zip,GR2004ATH_Stata.zip
+2004,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 2003-04 (4-year and 2-year institutions),GR2004_ATH_AID_Data_Stata.zip,GR2004_ATH_AID_Stata.zip
+2004,Graduation Rates,Response status for all survey components,FLAGS2004_Data_Stata.zip,FLAGS2004_Stata.zip
+2003,Institutional Characteristics,"Directory information, response status for all surveys and derived variables",HD2003_Data_Stata.zip,HD2003_Stata.zip
+2003,Institutional Characteristics,"Educational offerings, organization, accreditation, admissions,services and athletic associations",IC2003_Data_Stata.zip,IC2003_Stata.zip
+2003,Institutional Characteristics,Student charges for academic year programs,IC2003_AY_Data_Stata.zip,IC2003_AY_Stata.zip
+2003,Institutional Characteristics,Student charges by program (vocational programs),IC2003_PY_Data_Stata.zip,IC2003_PY_Stata.zip
+2003,12-Month Enrollment,12-month unduplicated headcount: 2002-03,EFFY2003_Data_Stata.zip,EFFY2003_Stata.zip
+2003,12-Month Enrollment,12-month instructional activity: 2002-03,EFIA2003_Data_Stata.zip,EFIA2003_Stata.zip
+2003,Admissions and Test Scores,"Educational offerings, organization, accreditation, applications, admissions, enrollees, test scores, services and athletic associations",IC2003_Data_Stata.zip,IC2003_Stata.zip
+2003,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2003",EF2003A_Data_Stata.zip,EF2003A_Stata.zip
+2003,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2003",EF2003B_Data_Stata.zip,EF2003B_Stata.zip
+2003,Fall Enrollment,Residence and migration of first-time freshman: Fall 2003,EF2003C_Data_Stata.zip,EF2003C_Stata.zip
+2003,Fall Enrollment,Total entering class  and retention rates: Fall 2003,EF2003D_Data_Stata.zip,EF2003D_Stata.zip
+2003,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2002-03",C2003_A_Data_Stata.zip,C2003_A_Stata.zip
+2003,Instructional Staff/Salaries,"Salaries of full-time instructional faculty,  by contract length, gender, and academic rank: Academic year 2003-04",SAL2003_A_Data_Stata.zip,SAL2003_A_Stata.zip
+2003,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length: Academic year 2003-04",SAL2003_B_Data_Stata.zip,SAL2003_B_Stata.zip
+2003,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions): Fall 2003",S2003_ABD_Data_Stata.zip,S2003_ABD_Stata.zip
+2003,Fall Staff,"Full-time faculty, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions): Fall 2003",S2003_F_Data_Stata.zip,S2003_F_Stata.zip
+2003,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions): Fall 2003",S2003_G_Data_Stata.zip,S2003_G_Stata.zip
+2003,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Nondegree-granting institutions): Fall 2003",S2003_CN_Data_Stata.zip,S2003_CN_Stata.zip
+2003,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity: Fall 2003",EAP2003_Data_Stata.zip,EAP2003_Stata.zip
+2003,Finance,Public institutions - GASB Reporting Standards before (GASB 34/35): Fiscal year 2003,F0203_F1_Data_Stata.zip,F0203_F1_Stata.zip
+2003,Finance,Public institutions - GASB 34/35: Fiscal year 2003,F0203_F1A_Data_Stata.zip,F0203_F1A_Stata.zip
+2003,Finance,Public institutions - GASB 34/35 (Component units using FASB): Fiscal year 2003,F0203_F1A_F_Data_Stata.zip,F0203_F1A_F_Stata.zip
+2003,Finance,Public institutions - GASB 34/35 (Component units using GASB): Fiscal year 2003,F0203_F1A_G_Data_Stata.zip,F0203_F1A_G_Stata.zip
+2003,Finance,Private not-for-profit institutions or Public institutions using FASB: Fiscal year 2003,F0203_F2_Data_Stata.zip,F0203_F2_Stata.zip
+2003,Finance,Private for-profit institutions: Fiscal year 2003,F0203_F3_Data_Stata.zip,F0203_F3_Stata.zip
+2003,Student Financial Aid and Net Price,Student financial aid: Academic year 2002-03,SFA0203_Data_Stata.zip,SFA0203_Stata.zip
+2003,Graduation Rates,Graduation rate data for cohort year 1997 (4-year) and cohort year 2000 (2-year and less-than-2-year) institutions,GR2003_Data_Stata.zip,GR2003_Stata.zip
+2003,Graduation Rates,"Graduation rate data by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1997 (4-year) and cohort year 2000 (2-year) institutions",GR2003ATH_Data_Stata.zip,GR2003ATH_Stata.zip
+2003,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 2002-03 (4-year and 2-year institutions),GR2003_ATH_AID_Data_Stata.zip,GR2003_ATH_AID_Stata.zip
+2002,Institutional Characteristics,"Directory information, response status for all surveys and derived variables",HD2002_Data_Stata.zip,HD2002_Stata.zip
+2002,Institutional Characteristics,"Educational offerings,organization, accreditation, admissions, services and athletic associations",IC2002_Data_Stata.zip,IC2002_Stata.zip
+2002,Institutional Characteristics,Student charges for academic year programs,IC2002_AY_Data_Stata.zip,IC2002_AY_Stata.zip
+2002,Institutional Characteristics,Student charges by program (vocational programs),IC2002_PY_Data_Stata.zip,IC2002_PY_Stata.zip
+2002,12-Month Enrollment,12-month unduplicated enrollment: 2001-02,EFFY2002_Data_Stata.zip,EFFY2002_Stata.zip
+2002,12-Month Enrollment,12-month instructional activity: 2001-02,EFIA2002_Data_Stata.zip,EFIA2002_Stata.zip
+2002,Admissions and Test Scores,"Educational offerings, organization, accreditation, applications, admissions, enrollees, test scores, services and athletic associations",IC2002_Data_Stata.zip,IC2002_Stata.zip
+2002,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2002",EF2002A_Data_Stata.zip,EF2002A_Stata.zip
+2002,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2002",EF2002CP_Data_Stata.zip,EF2002CP_Stata.zip
+2002,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2002",EF2002B_Data_Stata.zip,EF2002B_Stata.zip
+2002,Fall Enrollment,Residence and migration of first-time freshman: Fall 2002,EF2002C_Data_Stata.zip,EF2002C_Stata.zip
+2002,Fall Enrollment,Total entering class: Fall 2002,EF2002D_Data_Stata.zip,EF2002D_Stata.zip
+2002,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2001-02",C2002_A_Data_Stata.zip,C2002_A_Stata.zip
+2002,Instructional Staff/Salaries,"Salaries of full-time instructional faculty,  by contract length, gender, and academic rank - academic year 2002-03",SAL2002_A_Data_Stata.zip,SAL2002_A_Stata.zip
+2002,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length - academic year 2002-03",SAL2002_B_Data_Stata.zip,SAL2002_B_Stata.zip
+2002,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions) - fall 2002",S2002_ABD_Data_Stata.zip,S2002_ABD_Stata.zip
+2002,Fall Staff,"Full-time faculty, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions) - fall 2002",S2002_F_Data_Stata.zip,S2002_F_Stata.zip
+2002,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions) - fall 2002",S2002_G_Data_Stata.zip,S2002_G_Stata.zip
+2002,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Nondegree-granting institutions) - fall 2002",S2002_CN_Data_Stata.zip,S2002_CN_Stata.zip
+2002,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity - fall 2002",EAP2002_Data_Stata.zip,EAP2002_Stata.zip
+2002,Finance,"Public institutions - GASB Reporting Standards before (GASB 34/35), fiscal year 2002",F0102_F1_Data_Stata.zip,F0102_F1_Stata.zip
+2002,Finance,"Public institutions - GASB 34/35, fiscal year 2002",F0102_F1A_Data_Stata.zip,F0102_F1A_Stata.zip
+2002,Finance,"Public institutions - GASB 34/35 (Component units using FASB), fiscal year 2002",F0102_F1A_F_Data_Stata.zip,F0102_F1A_F_Stata.zip
+2002,Finance,"Public institutions - GASB 34/35 (Component units using GASB), fiscal year 2002",F0102_F1A_G_Data_Stata.zip,F0102_F1A_G_Stata.zip
+2002,Finance,"Private not-for-profit institutions or Public institutions using FASB, fiscal year 2002",F0102_F2_Data_Stata.zip,F0102_F2_Stata.zip
+2002,Finance,"Private for-profit institutions, fiscal year 2002",F0102_F3_Data_Stata.zip,F0102_F3_Stata.zip
+2002,Student Financial Aid and Net Price,Student financial aid: Academic year 2001-02,SFA0102_Data_Stata.zip,SFA0102_Stata.zip
+2002,Graduation Rates,Graduation rate data for cohort year 1996 (4-year) and cohort year 1999 (2-year and less-than-2-year) institutions,GR2002_Data_Stata.zip,GR2002_Stata.zip
+2002,Graduation Rates,"Graduation rate data by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1996 (4-year) and cohort year 1999 (2-year) institutions",GR2002ATH_Data_Stata.zip,GR2002ATH_Stata.zip
+2002,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 2001-02 (4-year and 2-year institutions),GR2002_ATH_AID_Data_Stata.zip,GR2002_ATH_AID_Stata.zip
+2001,Institutional Characteristics,"Directory information, response status for all surveys, and derived variables",FA2001HD_Data_Stata.zip,FA2001HD_Stata.zip
+2001,Institutional Characteristics,"Educational offerings,organization, accreditation, admissions, services and athletic associations",IC2001_Data_Stata.zip,IC2001_Stata.zip
+2001,Institutional Characteristics,Student charges for academic year programs,IC2001_AY_Data_Stata.zip,IC2001_AY_Stata.zip
+2001,Institutional Characteristics,Student charges by program (vocational programs),IC2001_PY_Data_Stata.zip,IC2001_PY_Stata.zip
+2001,12-Month Enrollment,12-month unduplicated enrollment: 2000-01,EF2001D1_Data_Stata.zip,EF2001D1_Stata.zip
+2001,12-Month Enrollment,12-month instructional activity: 2000-01,EF2001D2_Data_Stata.zip,EF2001D2_Stata.zip
+2001,Admissions and Test Scores,"Educational offerings, organization, accreditation, applications, admissions, enrollees, test scores, services and athletic associations",IC2001_Data_Stata.zip,IC2001_Stata.zip
+2001,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2001",EF2001A_Data_Stata.zip,EF2001A_Stata.zip
+2001,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 2001",EF2001B_Data_Stata.zip,EF2001B_Stata.zip
+2001,Fall Enrollment,Residence and migration of first-time freshman: Fall 2001,EF2001C_Data_Stata.zip,EF2001C_Stata.zip
+2001,Fall Enrollment,Total entering class: Fall 2001,EF2001E_Data_Stata.zip,EF2001E_Stata.zip
+2001,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 2000-01",C2001_A_Data_Stata.zip,C2001_A_Stata.zip
+2001,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 2000-01",c2001_a2dig_Data_Stata.zip,c2001_a2dig_Stata.zip
+2001,Instructional Staff/Salaries,"Salaries of full-time instructional faculty,  by contract length, gender, and academic rank - academic year 2001-02",SAL2001_A_S_Data_Stata.zip,SAL2001_A_S_Stata.zip
+2001,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length - academic year 2001-02",SAL2001_B_S_Data_Stata.zip,SAL2001_B_S_Stata.zip
+2001,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Degree-granting institutions) - fall 2001",S2001_ABD_Data_Stata.zip,S2001_ABD_Stata.zip
+2001,Fall Staff,"Full-time faculty, by tenure status, academic rank, race/ethnicity, and gender (Degree-granting institutions) - fall 2001",S2001_F_Data_Stata.zip,S2001_F_Stata.zip
+2001,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (Degree-granting institutions) - fall 2001",S2001_G_Data_Stata.zip,S2001_G_Stata.zip
+2001,Fall Staff,"Employees by primary occupation, race/ethnicity, and gender (Nondegree-granting institutions)  - fall 2001",S2001_CN_Data_Stata.zip,S2001_CN_Stata.zip
+2001,Employees by Assigned Position,"Employees by faculty status, primary function/occupational activity - fall 2001",EAP2001_Data_Stata.zip,EAP2001_Stata.zip
+2001,Finance,"Public institutions (GASB), fiscal year 2001",F0001_F1_Data_Stata.zip,F0001_F1_Stata.zip
+2001,Finance,"Private not-for-profit institutions or public institutions using FASB, fiscal year 2001",F0001_F2_Data_Stata.zip,F0001_F2_Stata.zip
+2001,Finance,"Private for-profit institutions, fiscal year 2001",F0001_F3_Data_Stata.zip,F0001_F3_Stata.zip
+2001,Student Financial Aid and Net Price,Student financial aid: Academic year 2000-01,SFA0001S_Data_Stata.zip,SFA0001S_Stata.zip
+2001,Graduation Rates,Graduation rate data Â for cohort year 1995 (4-year) and cohort year 1998 (2-year and less-than-2-year) institutions,GR2001_Data_Stata.zip,GR2001_Stata.zip
+2001,Graduation Rates,Graduation rate data for cohort year 1998 (less-than-2-year institutions),GR2001_L2_Data_Stata.zip,GR2001_L2_Stata.zip
+2001,Graduation Rates,"Graduation rate data Â by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1995 (4-year) and cohort year 1998 (2-year) Â institutions",GR2001ATH_Data_Stata.zip,GR2001ATH_Stata.zip
+2001,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 2000-01 (4-year and 2-year institutions),GR2001_ATH_AID_Data_Stata.zip,GR2001_ATH_AID_Stata.zip
+2000,Institutional Characteristics,"Directory information, response status for all surveys and derived variables",FA2000HD_Data_Stata.zip,FA2000HD_Stata.zip
+2000,Institutional Characteristics,"Educational offerings,organization, accreditation, admissions, services and athletic associations",IC2000_Data_Stata.zip,IC2000_Stata.zip
+2000,Institutional Characteristics,"Accrediting agencies recognized by the Secretary, U.S. Department of Education",IC2000_ACTOT_Data_Stata.zip,IC2000_ACTOT_Stata.zip
+2000,Institutional Characteristics,Student charges for academic year programs,IC2000_AY_Data_Stata.zip,IC2000_AY_Stata.zip
+2000,Institutional Characteristics,Student charges by program (vocational programs),IC2000_PY_Data_Stata.zip,IC2000_PY_Stata.zip
+2000,12-Month Enrollment,12-month enrollment and instructional activity: 1999-2000,EF2000D_Data_Stata.zip,EF2000D_Stata.zip
+2000,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 2000",EF2000A_Data_Stata.zip,EF2000A_Stata.zip
+2000,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 2000",EF2000CP_Data_Stata.zip,EF2000CP_Stata.zip
+2000,Fall Enrollment,"Age category, gender and attendance status of undergraduate students: Fall 2000",EF2000B_Data_Stata.zip,EF2000B_Stata.zip
+2000,Fall Enrollment,Residence and migration of first-time freshman: Fall 2000,EF2000C_Data_Stata.zip,EF2000C_Stata.zip
+2000,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 1999-2000",C2000_A_Data_Stata.zip,C2000_A_Stata.zip
+2000,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1999-2000",C2000_A2DIG_Data_Stata.zip,C2000_A2DIG_Stata.zip
+2000,Finance,Public institutions - F1,F9900_F1_Data_Stata.zip,F9900_F1_Stata.zip
+2000,Finance,Private not-for-profit institutions - F2,F9900F2_Data_Stata.zip,F9900F2_Stata.zip
+2000,Finance,Private for-profit institutions - F3,F9900F3_Data_Stata.zip,F9900F3_Stata.zip
+2000,Student Financial Aid and Net Price,Student financial aid: Academic year 1999-2000,SFA9900S_Data_Stata.zip,SFA9900S_Stata.zip
+2000,Graduation Rates,Graduation rate data  for cohort year 1994 (4-year) and cohort year 1997 (2-year and less-than-2-year) institutions,GR2000_Data_Stata.zip,GR2000_Stata.zip
+2000,Graduation Rates,Graduation rate data for cohort year 1997 (less-than-2-year institutions),GR2000_L2_Data_Stata.zip,GR2000_L2_Stata.zip
+2000,Graduation Rates,"Graduation rate data  by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1994 (4-year) and cohort year 1997 (2-year)  institutions",GR2000ATH_Data_Stata.zip,GR2000ATH_Stata.zip
+2000,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 1999-00 (4-year and 2-year institutions),GR2000_ATH_AID_Data_Stata.zip,GR2000_ATH_AID_Stata.zip
+1999,Institutional Characteristics,"Directory information, response status and derived variables",IC99_HD_Data_Stata.zip,IC99_HD_Stata.zip
+1999,Institutional Characteristics,"Educational offerings,organization, accreditation, admissions, services and athletic associations",IC99ABCF_Data_Stata.zip,IC99ABCF_Stata.zip
+1999,Institutional Characteristics,"Price of attendance, academic year programs",IP1999AY_Data_Stata.zip,IP1999AY_Stata.zip
+1999,Institutional Characteristics,Price of attendance by program (vocational programs),IP1999PY_Data_Stata.zip,IP1999PY_Stata.zip
+1999,Institutional Characteristics,"Accrediting agencies recognized by the Secretary, U.S. Department of Education",IC99_ACTOT_Data_Stata.zip,IC99_ACTOT_Stata.zip
+1999,Institutional Characteristics,"Student charges - Room and board, and average tuition for undergraduates, graduate and first-professional programs.",IC99_D_Data_Stata.zip,IC99_D_Stata.zip
+1999,12-Month Enrollment,12-month enrollment and instructional activity: 1998-99,IC99_E_Data_Stata.zip,IC99_E_Stata.zip
+1999,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 1999",EF99_ANR_Data_Stata.zip,EF99_ANR_Stata.zip
+1999,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 1999",EF99_B_Data_Stata.zip,EF99_B_Stata.zip
+1999,Fall Enrollment,Clarifying questions on Fall enrollment,EF99_D_Data_Stata.zip,EF99_D_Stata.zip
+1999,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 1998-99",C9899_A_Data_Stata.zip,C9899_A_Stata.zip
+1999,Completions,Double majors and awards conferred at branch campuses in foreign countries: 1998-99,C9899_B_Data_Stata.zip,C9899_B_Stata.zip
+1999,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1999_A_Data_Stata.zip,SAL1999_A_Stata.zip
+1999,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1999_B_Data_Stata.zip,SAL1999_B_Stata.zip
+1999,Fall Staff,"Employees by primary occupation, salary categories, race/ethnicity, and gender (4-year and 2-year institutions) - fall 199",S1999_ABD_Data_Stata.zip,S1999_ABD_Stata.zip
+1999,Fall Staff,"Full-time faculty, by tenure status, academic rank, race/ethnicity, and gender (4-year and 2-year instiutions): fall 1999",S1999_F_Data_Stata.zip,S1999_F_Stata.zip
+1999,Fall Staff,"New hires by primary occupation, race/ethnicity, and gender (4-year and 2-year instiutions) - fall 1999",S1999_G_Data_Stata.zip,S1999_G_Stata.zip
+1999,Fall Staff,Full- and part-time staff by gender and primary occupational activity (Less-than-2-year institutions) - fall 1999,S99_CN_Data_Stata.zip,S99_CN_Stata.zip
+1999,Fall Staff,Contracted or donated services by primary occupational activity - fall 1999,S99_E_Data_Stata.zip,S99_E_Stata.zip
+1999,Finance,"Public 4-year and 2-year (Revenues, expenditures financial aid, assets, endowments) : Fiscal year 1999",F9899_F1_Data_Stata.zip,F9899_F1_Stata.zip
+1999,Finance,Public 4-year and 2-year - Clarifying Question 5 on subentities: Fiscal year 1999,F9899_C5_Data_Stata.zip,F9899_C5_Stata.zip
+1999,Finance,"Private not-for-profit 4-year and 2-year (Revenues, expenditures, net assets, and statement of financial position) : Fiscal year 1999",F9899_F2_Data_Stata.zip,F9899_F2_Stata.zip
+1999,Finance,"Private for-profit 4-year and 2-year (Revenues, expenditures, net assets, and statement of financial position) : Fiscal year 1999",F9899_F3_Data_Stata.zip,F9899_F3_Stata.zip
+1999,Finance,Consolidated (CN) form - less-than-2-year institutions : Fiscal year 1999,F9899_CN_Data_Stata.zip,F9899_CN_Stata.zip
+1999,Student Financial Aid and Net Price,Student financial aid (student counts): Academic year 1998-99,Pub_studentCount_Data_Stata.zip,Pub_studentCount_Stata.zip
+1999,Student Financial Aid and Net Price,Student financial aid  (financial aid): Academic year 1998-99,Pub_FinancialAid_Data_Stata.zip,Pub_FinancialAid_Stata.zip
+1999,Graduation Rates,Graduation rate data Â for cohort year 1993 (4-year) and cohort year 1996 (2-year and less-than-2-year) Â institutions,GR1999_Data_Stata.zip,GR1999_Stata.zip
+1999,Graduation Rates,Graduation rate data for cohort year 1996 (less-than-2-year institutions),GR1999_L2_Data_Stata.zip,GR1999_L2_Stata.zip
+1999,Graduation Rates,"Graduation rate data Â by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1993 (4-year) and cohort year 1996 (2-year) Â institutions",GR1999ATH_Data_Stata.zip,GR1999ATH_Stata.zip
+1999,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 1998-99 (4-year and 2-year institutions),GR1999_ATH_AID_Data_Stata.zip,GR1999_ATH_AID_Stata.zip
+1998,Institutional Characteristics,"Directory information, response status and derived variables",IC98hdac_Data_Stata.zip,IC98hdac_Stata.zip
+1998,Institutional Characteristics,"Educational offerings, organization and accreditation",IC98_AB_Data_Stata.zip,IC98_AB_Stata.zip
+1998,Institutional Characteristics,Admissions and services,IC98_C_Data_Stata.zip,IC98_C_Stata.zip
+1998,Institutional Characteristics,Student charges,IC98_D_Data_Stata.zip,IC98_D_Stata.zip
+1998,Institutional Characteristics,"Financial aid, athletic associations, and other information",IC98_F_Data_Stata.zip,IC98_F_Stata.zip
+1998,12-Month Enrollment,12-month enrollment and instructional activity: 1997-98,IC98_E_Data_Stata.zip,IC98_E_Stata.zip
+1998,Fall Enrollment,Response status,EF98_hd_Data_Stata.zip,EF98_hd_Stata.zip
+1998,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 1998",EF98_ANR_Data_Stata.zip,EF98_ANR_Stata.zip
+1998,Fall Enrollment,"(Raked Analysis File) Race/ethnicity, gender, attendance status and level of student: Fall 1998",EF98_ARK_Data_Stata.zip,EF98_ARK_Stata.zip
+1998,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student: Fall 1998",EF98_ACP_Data_Stata.zip,EF98_ACP_Stata.zip
+1998,Fall Enrollment,Residence and migration of first-time freshman: Fall 1998,EF98_C_Data_Stata.zip,EF98_C_Stata.zip
+1998,Fall Enrollment,Clarifying questions,EF98_D_Data_Stata.zip,EF98_D_Stata.zip
+1998,Completions,Response status,C9798_HD_Data_Stata.zip,C9798_HD_Stata.zip
+1998,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 1997-98",C9798_A_Data_Stata.zip,C9798_A_Stata.zip
+1998,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1997-98",C9798_A2DIG_Data_Stata.zip,C9798_A2DIG_Stata.zip
+1998,Completions,Double majors and awards conferred at branch campuses in foreign countries: 1997-98,C9798_B_Data_Stata.zip,C9798_B_Stata.zip
+1998,Instructional Staff/Salaries,Response status,SAL98_HD_Data_Stata.zip,SAL98_HD_Stata.zip
+1998,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL98_A_Data_Stata.zip,SAL98_A_Stata.zip
+1998,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL98_B_Data_Stata.zip,SAL98_B_Stata.zip
+1998,Finance,"Public 4-year and 2-year (Revenues, expenditures, financial aid, assets, endowments) : Fiscal year 1998",F9798_F1_Data_Stata.zip,F9798_F1_Stata.zip
+1998,Finance,Public 4-year and 2-year - Clarifying Question 5 on subentities: Fiscal year 1998,F9798_C5_Data_Stata.zip,F9798_C5_Stata.zip
+1998,Finance,"Private not-for-profit 4-year and 2-year (Revenues, expenditures, net assets and statement of financial position) : Fiscal year 1998",F9798_F2_Data_Stata.zip,F9798_F2_Stata.zip
+1998,Finance,"Private for-profit 4-year and 2-year (Revenues, expenditures, net assets and statement of financial position) : Fiscal year 1998",F9798_F3_Data_Stata.zip,F9798_F3_Stata.zip
+1998,Finance,Consolidated (CN) form - less-than-2-year institutions : Fiscal year 1998,F9798_CN_Data_Stata.zip,F9798_CN_Stata.zip
+1998,Graduation Rates,Graduation rate data  for cohort year 1992  (4-year) and cohort year 1995 (2-year and less-than-2-year) institutions,GR1998_Data_Stata.zip,GR1998_Stata.zip
+1998,Graduation Rates,Graduation rate data for cohort year 1995 (less-than-2-year institutions),GR1998_L2_Data_Stata.zip,GR1998_L2_Stata.zip
+1998,Graduation Rates,"Graduation rate data  by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1992 (4-year) and cohort year 1995 (2-year)  institutions",GR1998ATH_Data_Stata.zip,GR1998ATH_Stata.zip
+1998,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 1997-98 (4-year and 2-year institutions),GR1998_ATH_AID_Data_Stata.zip,GR1998_ATH_AID_Stata.zip
+1997,Institutional Characteristics,"Directory information, response status and derived variables",ic9798_HDR_Data_Stata.zip,ic9798_HDR_Stata.zip
+1997,Institutional Characteristics,"Educational offerings, organization and accreditation",ic9798_AB_Data_Stata.zip,ic9798_AB_Stata.zip
+1997,Institutional Characteristics,Admissions and services,ic9798_C_Data_Stata.zip,ic9798_C_Stata.zip
+1997,Institutional Characteristics,Student charges,ic9798_D_Data_Stata.zip,ic9798_D_Stata.zip
+1997,Institutional Characteristics,"Financial aid, athletic associations and other information",ic9798_F_Data_Stata.zip,ic9798_F_Stata.zip
+1997,12-Month Enrollment,12-month enrollment: 1996-97,ic9798_E_Data_Stata.zip,ic9798_E_Stata.zip
+1997,Fall Enrollment,Response status,EF97_HDR_Data_Stata.zip,EF97_HDR_Stata.zip
+1997,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student: Fall 1997",EF97_ANR_Data_Stata.zip,EF97_ANR_Stata.zip
+1997,Fall Enrollment,"(Raked Analysis File) - Race/ethnicity, gender, attendance status, and level of student: Fall 1997",EF97_ARK_Data_Stata.zip,EF97_ARK_Stata.zip
+1997,Fall Enrollment,"Age category, gender, attendance status, and level of student: Fall 1997",EF97_B_Data_Stata.zip,EF97_B_Stata.zip
+1997,Fall Enrollment,Clarifying questions,EF97_D_Data_Stata.zip,EF97_D_Stata.zip
+1997,Completions,Response status,C9697_HDR_Data_Stata.zip,C9697_HDR_Stata.zip
+1997,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 1996-97",C9697_A_Data_Stata.zip,C9697_A_Stata.zip
+1997,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1996-97",C9697_A2DIG_Data_Stata.zip,C9697_A2DIG_Stata.zip
+1997,Completions,Double majors and awards conferred at branch campuses in foreign countries: 1996-97,C9697_B_Data_Stata.zip,C9697_B_Stata.zip
+1997,Instructional Staff/Salaries,Response status,SAL97_HDR_Data_Stata.zip,SAL97_HDR_Stata.zip
+1997,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL97_A_Data_Stata.zip,SAL97_A_Stata.zip
+1997,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL97_B_Data_Stata.zip,SAL97_B_Stata.zip
+1997,Fall Staff,Response status,S97_IC_Data_Stata.zip,S97_IC_Stata.zip
+1997,Fall Staff,"Full- and part-time staff  by  race/ethnicity, gender, and  primary occupational activity (4-year and 2-year instiutions)",S97_S_Data_Stata.zip,S97_S_Stata.zip
+1997,Fall Staff,Contracted or donated services by primary occupational activity,S97_E_Data_Stata.zip,S97_E_Stata.zip
+1997,Fall Staff,Full- and part-time staff  by  gender and primary occupational activity (Less-than-2-year institutions),S97_CN_Data_Stata.zip,S97_CN_Stata.zip
+1997,Finance,"Public 4-year and 2-year (Revenues, expenditures, financial aid, assets, endowments) : Fiscal year 1997",F9697_F1_Data_Stata.zip,F9697_F1_Stata.zip
+1997,Finance,"Private not-for-profit 4-year and 2-year (Revenues, expenditures, net assets, statement of financial position) : Fiscal year 1997",F9697_F2_Data_Stata.zip,F9697_F2_Stata.zip
+1997,Graduation Rates,Graduation rate data Â for cohort year 1991 (4-year) and cohort year 1994 (2-year and less-than-2-year) institutions,GR1997_Data_Stata.zip,GR1997_Stata.zip
+1997,Graduation Rates,Graduation rate data for cohort year 1994 (less-than-2-year institutions),GR1997_L2_Data_Stata.zip,GR1997_L2_Stata.zip
+1997,Graduation Rates,"Graduation rate data Â by sport for full-time, first-time degree/certificate-seeking students receiving athletically-related student aid for cohort year 1991 (4-year) and cohort year 1994 (2-year) Â institutions",GR1997ATH_Data_Stata.zip,GR1997ATH_Stata.zip
+1997,Graduation Rates,Number of full-time undergraduate degree/certificate-seeking students receiving athletically-related student aid in 1996-97 (4-year and 2-year institutions),GR1997_ATH_AID_Data_Stata.zip,GR1997_ATH_AID_Stata.zip
+1996,Institutional Characteristics,Educational offerings,ic9697_A_Data_Stata.zip,ic9697_A_Stata.zip
+1996,Institutional Characteristics,Organization and accreditation,ic9697_B_Data_Stata.zip,ic9697_B_Stata.zip
+1996,Institutional Characteristics,Admissions and  services,ic9697_C_Data_Stata.zip,ic9697_C_Stata.zip
+1996,Fall Enrollment,Response status,EF96_IC_Data_Stata.zip,EF96_IC_Stata.zip
+1996,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF96_ANR_Data_Stata.zip,EF96_ANR_Stata.zip
+1996,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student",EF96_ACP_Data_Stata.zip,EF96_ACP_Stata.zip
+1996,Fall Enrollment,"Raked Analysis File - Race/ethnicity, gender, attendance status, and level of student",EF96_ARK_Data_Stata.zip,EF96_ARK_Stata.zip
+1996,Fall Enrollment,Residence and migration of first-time freshmen,EF96_C_Data_Stata.zip,EF96_C_Stata.zip
+1996,Fall Enrollment,Clarifying questions,EF96_D_Data_Stata.zip,EF96_D_Stata.zip
+1996,Completions,Response status,C9596_IC_Data_Stata.zip,C9596_IC_Stata.zip
+1996,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 1995-96",C9596_A_Data_Stata.zip,C9596_A_Stata.zip
+1996,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1995-96",C9596_A2DIG_Data_Stata.zip,C9596_A2DIG_Stata.zip
+1996,Completions,Double majors and awards conferred at branch campuses in foreign countries: 1995-96,C9596_B_Data_Stata.zip,C9596_B_Stata.zip
+1996,Instructional Staff/Salaries,Response status,SAL96_IC_Data_Stata.zip,SAL96_IC_Stata.zip
+1996,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL96_a_1_Data_Stata.zip,SAL96_a_1_Stata.zip
+1996,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL96_B_Data_Stata.zip,SAL96_B_Stata.zip
+1996,Finance,Response status,F9596_IC_Data_Stata.zip,F9596_IC_Stata.zip
+1996,Finance,Current funds revenues by source,F9596_A_Data_Stata.zip,F9596_A_Stata.zip
+1996,Finance,Current funds expenditures by function,F9596_B_Data_Stata.zip,F9596_B_Stata.zip
+1996,Finance,Clarifying questions regarding total E and G expenditures and revenues,F9596_C_Data_Stata.zip,F9596_C_Stata.zip
+1996,Finance,Clarifying questions regarding total E and G expenditures and revenues list of subentities,F9596_C5_Data_Stata.zip,F9596_C5_Stata.zip
+1996,Finance,Utitilty expenditures,F9596_D_Data_Stata.zip,F9596_D_Stata.zip
+1996,Finance,Scholarship and fellowship expenditures by source,F9596_E_Data_Stata.zip,F9596_E_Stata.zip
+1996,Finance,Expenditures for acquisitions of library materials,F9596_F_Data_Stata.zip,F9596_F_Stata.zip
+1996,Finance,Indebtedness on physical plant,F9596_G_Data_Stata.zip,F9596_G_Stata.zip
+1996,Finance,Details on endowment assets,F9596_H_Data_Stata.zip,F9596_H_Stata.zip
+1996,Finance,Selected fund balances,F9596_I_Data_Stata.zip,F9596_I_Stata.zip
+1996,Finance,Hospital revenues,F9596_J_Data_Stata.zip,F9596_J_Stata.zip
+1996,Finance,Physical plant assets,F9596_K_Data_Stata.zip,F9596_K_Stata.zip
+1996,Finance,Finance (CN) conolidated form - less-than-2-year institutions,F9596_CN_Data_Stata.zip,F9596_CN_Stata.zip
+1995,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation and admissions",ic9596_A_Data_Stata.zip,ic9596_A_Stata.zip
+1995,Institutional Characteristics,"Student services, student charges, 12-month enrollment, financial aid and other information",ic9596_B_Data_Stata.zip,ic9596_B_Stata.zip
+1995,Fall Enrollment,Response status,EF95_IC_Data_Stata.zip,EF95_IC_Stata.zip
+1995,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF95_ANR_Data_Stata.zip,EF95_ANR_Stata.zip
+1995,Fall Enrollment,"Raked Analysis File - Race/ethnicity, gender, attendance status, and level of student",EF95_ARK_Data_Stata.zip,EF95_ARK_Stata.zip
+1995,Fall Enrollment,"Age category, gender, attendance status, and level of student",EF95_B_Data_Stata.zip,EF95_B_Stata.zip
+1995,Fall Enrollment,Clarifying questions,EF95_D_Data_Stata.zip,EF95_D_Stata.zip
+1995,Completions,Response status,C9495_IC_Data_Stata.zip,C9495_IC_Stata.zip
+1995,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level, race/ethnicity, and gender: 1994-95",C9495_A_Data_Stata.zip,C9495_A_Stata.zip
+1995,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1994-95",C9495_A2DIG_Data_Stata.zip,C9495_A2DIG_Stata.zip
+1995,Completions,Double majors and awards conferred at branch campuses in foreign countries: 1994-95,C9495_B_Data_Stata.zip,C9495_B_Stata.zip
+1995,Instructional Staff/Salaries,Response status,SAL95_IC_Data_Stata.zip,SAL95_IC_Stata.zip
+1995,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL95_a_1_Data_Stata.zip,SAL95_a_1_Stata.zip
+1995,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL95_B_Data_Stata.zip,SAL95_B_Stata.zip
+1995,Fall Staff,Response status,s95_ic_Data_Stata.zip,s95_ic_Stata.zip
+1995,Fall Staff,"Full- and part-time staff by race/ethnicity, gender, and primary occupational activity (4-year and 2-year institutions)",S95_S_Data_Stata.zip,S95_S_Stata.zip
+1995,Fall Staff,Services contracted or donated by primary occupational activity,s95_e_Data_Stata.zip,s95_e_Stata.zip
+1995,Fall Staff,Full- and part-time staff  by  gender  and primary occupational activity (Less-than-2-year institutions),S95_CN_Data_Stata.zip,S95_CN_Stata.zip
+1995,Finance,Response status,F9495_IC_Data_Stata.zip,F9495_IC_Stata.zip
+1995,Finance,Current funds revenues by source,F9495_A_Data_Stata.zip,F9495_A_Stata.zip
+1995,Finance,Current funds expenditures by function,F9495_B_Data_Stata.zip,F9495_B_Stata.zip
+1995,Finance,Clarifying questions regarding total E and G expenditures and revenues,F9495_C_Data_Stata.zip,F9495_C_Stata.zip
+1995,Finance,Clarifying questions regarding total E and G expenditures and revenues list of subentities,F9495_C5_Data_Stata.zip,F9495_C5_Stata.zip
+1995,Finance,Utitilty expenditures,F9495_D_Data_Stata.zip,F9495_D_Stata.zip
+1995,Finance,Scholarship and fellowship expenditures by source,F9495_E_Data_Stata.zip,F9495_E_Stata.zip
+1995,Finance,Expenditures for acquisitions of library materials,F9495_F_Data_Stata.zip,F9495_F_Stata.zip
+1995,Finance,Indebtedness on physical plant,F9495_G_Data_Stata.zip,F9495_G_Stata.zip
+1995,Finance,Details on endowment assets,F9495_H_Data_Stata.zip,F9495_H_Stata.zip
+1995,Finance,Selected fund balances,F9495_I_Data_Stata.zip,F9495_I_Stata.zip
+1995,Finance,Hospital revenues,F9495_J_Data_Stata.zip,F9495_J_Stata.zip
+1995,Finance,Physical plant assets,F9495_K_Data_Stata.zip,F9495_K_Stata.zip
+1994,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation",IC1994_A_Data_Stata.zip,IC1994_A_Stata.zip
+1994,Institutional Characteristics,"Admissions, services, student charges, 12-month enrollment,  financial aid and other information",IC1994_B_Data_Stata.zip,IC1994_B_Stata.zip
+1994,Fall Enrollment,Response status,EF1994_IC_Data_Stata.zip,EF1994_IC_Stata.zip
+1994,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student Racial/ethnic data (not raked) by level of student",EF1994_ANR_Data_Stata.zip,EF1994_ANR_Stata.zip
+1994,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student",EF1994_ACP_Data_Stata.zip,EF1994_ACP_Stata.zip
+1994,Fall Enrollment,"Raked analysis file - Race/ethnicity, gender, attendance status, and level of student",EF1994_ARK_Data_Stata.zip,EF1994_ARK_Stata.zip
+1994,Fall Enrollment,Residence and migration of first-time freshmen,EF1994_C_Data_Stata.zip,EF1994_C_Stata.zip
+1994,Fall Enrollment,Clarifying questions,EF1994_D_Data_Stata.zip,EF1994_D_Stata.zip
+1994,Completions,Response status,C1994_IC_Data_Stata.zip,C1994_IC_Stata.zip
+1994,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1993-94",C1994_CIP_Data_Stata.zip,C1994_CIP_Stata.zip
+1994,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1993-94",C1994_RE_Data_Stata.zip,C1994_RE_Stata.zip
+1994,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1994_A_Data_Stata.zip,SAL1994_A_Stata.zip
+1994,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1994_B_Data_Stata.zip,SAL1994_B_Stata.zip
+1994,Finance,Response status,F1994_IC_Data_Stata.zip,F1994_IC_Stata.zip
+1994,Finance,Current funds revenues by source,F1994_A_Data_Stata.zip,F1994_A_Stata.zip
+1994,Finance,Current funds expenditures by function,F1994_B_Data_Stata.zip,F1994_B_Stata.zip
+1994,Finance,Clarifying questions regarding total E and G expenditures and revenues,F1994_C_Data_Stata.zip,F1994_C_Stata.zip
+1994,Finance,Utilitiy expenditures,F1994_D_Data_Stata.zip,F1994_D_Stata.zip
+1994,Finance,Scholarship and fellowship expenditures by source,F1994_E_Data_Stata.zip,F1994_E_Stata.zip
+1994,Finance,Expenditures for acquisitions of library materials,F1994_F_Data_Stata.zip,F1994_F_Stata.zip
+1994,Finance,Indebtedness on physical plant,F1994_G_Data_Stata.zip,F1994_G_Stata.zip
+1994,Finance,Details on endowment assets,F1994_H_Data_Stata.zip,F1994_H_Stata.zip
+1994,Finance,Selected fund balances,F1994_I_Data_Stata.zip,F1994_I_Stata.zip
+1994,Finance,Hospital revenues,F1994_J_Data_Stata.zip,F1994_J_Stata.zip
+1994,Finance,Physical plant assets,F1994_K_Data_Stata.zip,F1994_K_Stata.zip
+1993,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation",IC1993_A_Data_Stata.zip,IC1993_A_Stata.zip
+1993,Institutional Characteristics,"Admissions, services, student charges, 12-month enrollment, financial aid and other information",IC1993_B_Data_Stata.zip,IC1993_B_Stata.zip
+1993,Fall Enrollment,Response status,EF1993_IC_Data_Stata.zip,EF1993_IC_Stata.zip
+1993,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF1993_A_Data_Stata.zip,EF1993_A_Stata.zip
+1993,Fall Enrollment,"Age category, gender, attendance status, and level of student",EF1993_B_Data_Stata.zip,EF1993_B_Stata.zip
+1993,Fall Enrollment,Clarifying questions,EF1993_D_Data_Stata.zip,EF1993_D_Stata.zip
+1993,Completions,Response status,C1993_IC_Data_Stata.zip,C1993_IC_Stata.zip
+1993,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1992-93",C1993_CIP_Data_Stata.zip,C1993_CIP_Stata.zip
+1993,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1992-93",C1993_RE_Data_Stata.zip,C1993_RE_Stata.zip
+1993,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1993_A_Data_Stata.zip,SAL1993_A_Stata.zip
+1993,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1993_B_Data_Stata.zip,SAL1993_B_Stata.zip
+1993,Fall Staff,Response status and contracted/donated services (Part D),S1993_IC_Data_Stata.zip,S1993_IC_Stata.zip
+1993,Fall Staff,"Full- and part-time staff by race/ethnicity, gender, and primary occupational activity (2- and 4-year institutions)",S1993_ABCEF_Data_Stata.zip,S1993_ABCEF_Stata.zip
+1993,Fall Staff,Full- and part-time staff by gender and primary occupational activity (less-than-2-year-institutions),S1993_CN_Data_Stata.zip,S1993_CN_Stata.zip
+1993,Finance,Response status,F1993_IC_Data_Stata.zip,F1993_IC_Stata.zip
+1993,Finance,Current funds revenues by source,F1993_A_Data_Stata.zip,F1993_A_Stata.zip
+1993,Finance,Current funds expenditures by function,F1993_B_Data_Stata.zip,F1993_B_Stata.zip
+1993,Finance,Clarifying questions regarding total E and G expenditures and revenues,F1993_C_Data_Stata.zip,F1993_C_Stata.zip
+1993,Finance,Utitilty expenditures,F1993_D_Data_Stata.zip,F1993_D_Stata.zip
+1993,Finance,Scholarship and fellowship expenditures by source,F1993_E_Data_Stata.zip,F1993_E_Stata.zip
+1993,Finance,Expenditures for acquisitions of library materials,F1993_F_Data_Stata.zip,F1993_F_Stata.zip
+1993,Finance,Indebtedness on physical plant,F1993_G_Data_Stata.zip,F1993_G_Stata.zip
+1993,Finance,Details on endowment assets,F1993_H_Data_Stata.zip,F1993_H_Stata.zip
+1993,Finance,Selected fund balances,F1993_I_Data_Stata.zip,F1993_I_Stata.zip
+1993,Finance,Hospital revenues,F1993_J_Data_Stata.zip,F1993_J_Stata.zip
+1993,Finance,Physical plant assets,F1993_K_Data_Stata.zip,F1993_K_Stata.zip
+1992,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation",IC1992_A_Data_Stata.zip,IC1992_A_Stata.zip
+1992,Institutional Characteristics,"Admissions, services, student charges, financial aid and other information",IC1992_B_Data_Stata.zip,IC1992_B_Stata.zip
+1992,Fall Enrollment,Response status,EF1992_IC_Data_Stata.zip,EF1992_IC_Stata.zip
+1992,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF1992_A_Data_Stata.zip,EF1992_A_Stata.zip
+1992,Fall Enrollment,Residence and migration of first-time freshmen,EF1992_C_Data_Stata.zip,EF1992_C_Stata.zip
+1992,Completions,Response status,C1992_IC_Data_Stata.zip,C1992_IC_Stata.zip
+1992,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1991-92",C1992_CIP_Data_Stata.zip,C1992_CIP_Stata.zip
+1992,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1991-92",C1992_RE_Data_Stata.zip,C1992_RE_Stata.zip
+1992,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1992_A_Data_Stata.zip,SAL1992_A_Stata.zip
+1992,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1992_B_Data_Stata.zip,SAL1992_B_Stata.zip
+1992,Finance,Response status,F1992_IC_Data_Stata.zip,F1992_IC_Stata.zip
+1992,Finance,Current funds revenues by source,F1992_A_Data_Stata.zip,F1992_A_Stata.zip
+1992,Finance,Current funds expenditures and transfers,F1992_B_Data_Stata.zip,F1992_B_Stata.zip
+1992,Finance,Clarifying questions regarding total E and G expenditures and revenues,F1992_C_Data_Stata.zip,F1992_C_Stata.zip
+1992,Finance,Utility expenditures,F1992_D_Data_Stata.zip,F1992_D_Stata.zip
+1992,Finance,"Scholarship and fellowship expenditures, by source",F1992_E_Data_Stata.zip,F1992_E_Stata.zip
+1992,Finance,Expenditures for acquisitions of library materials,F1992_F_Data_Stata.zip,F1992_F_Stata.zip
+1992,Finance,Indebtedness on physical plant,F1992_G_Data_Stata.zip,F1992_G_Stata.zip
+1992,Finance,Details on endowment assets,F1992_H_Data_Stata.zip,F1992_H_Stata.zip
+1992,Finance,Changes in fund balances,F1992_I_Data_Stata.zip,F1992_I_Stata.zip
+1992,Finance,Hospital revenues,F1992_J_Data_Stata.zip,F1992_J_Stata.zip
+1992,Finance,Physical plant assets,F1992_K_Data_Stata.zip,F1992_K_Stata.zip
+1991,Institutional Characteristics,"Educational offerings, organization and accreditation",ic1991_ab_Data_Stata.zip,ic1991_ab_Stata.zip
+1991,Institutional Characteristics,Admissions and selected services,ic1991_c_Data_Stata.zip,ic1991_c_Stata.zip
+1991,Institutional Characteristics,Student charges,ic1991_d_Data_Stata.zip,ic1991_d_Stata.zip
+1991,Institutional Characteristics,Corrected fall enrollment for 1990,ic1991_e_Data_Stata.zip,ic1991_e_Stata.zip
+1991,Institutional Characteristics,Financial aid and other information,ic1991_f_Data_Stata.zip,ic1991_f_Stata.zip
+1991,Institutional Characteristics,"Directory information, response status and derived variables",IC1991_hdr_Data_Stata.zip,IC1991_hdr_Stata.zip
+1991,Institutional Characteristics,"Other levels of offerings, summer session indicators",ic1991_other_Data_Stata.zip,ic1991_other_Stata.zip
+1991,Fall Enrollment,Fall enrollment: Response status information,ef1991_hdr_Data_Stata.zip,ef1991_hdr_Stata.zip
+1991,Fall Enrollment,"Fall enrollments by race-ethnicity, gender, attendance status, and level of student",ef1991_a_Data_Stata.zip,ef1991_a_Stata.zip
+1991,Fall Enrollment,"Fall enrollments by age category, gender, attendance status, and level of student",ef1991_b_Data_Stata.zip,ef1991_b_Stata.zip
+1991,Completions,Response status,C1991_HDR_Data_Stata.zip,C1991_HDR_Stata.zip
+1991,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1990-91",c1991_cip_Data_Stata.zip,c1991_cip_Stata.zip
+1991,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1990-91",c1991_re_Data_Stata.zip,c1991_re_Stata.zip
+1991,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,sal1991_a_Data_Stata.zip,sal1991_a_Stata.zip
+1991,Instructional Staff/Salaries,Fringe benefits of full-time intructional faculty,sal1991_b_Data_Stata.zip,sal1991_b_Stata.zip
+1991,Instructional Staff/Salaries,Response status,sal1991_hdr_Data_Stata.zip,sal1991_hdr_Stata.zip
+1991,Fall Staff,Full- and part-time employees by gender and primary occupational activity,s1991_a_Data_Stata.zip,s1991_a_Stata.zip
+1991,Fall Staff,Contracted or donated services,s1991_b_Data_Stata.zip,s1991_b_Stata.zip
+1991,Fall Staff,Response status,s1991_hdr_Data_Stata.zip,s1991_hdr_Stata.zip
+1991,Finance,Response status,F1991_hdr_Data_Stata.zip,F1991_hdr_Stata.zip
+1991,Finance,Current funds revenues by source,F1991_A_Data_Stata.zip,F1991_A_Stata.zip
+1991,Finance,Current funds expenditures by function,F1991_B_Data_Stata.zip,F1991_B_Stata.zip
+1991,Finance,Clarifying questions regarding total educational and general expenditures and revenues,F1991_C_Data_Stata.zip,F1991_C_Stata.zip
+1991,Finance,Utility expenditures,F1991_D_Data_Stata.zip,F1991_D_Stata.zip
+1991,Finance,Scholarship and fellowship expenditures by source,F1991_E_Data_Stata.zip,F1991_E_Stata.zip
+1991,Finance,Expenditures for acquisitions of library materials,F1991_F_Data_Stata.zip,F1991_F_Stata.zip
+1991,Finance,Indebtedness on physical plant,F1991_G_Data_Stata.zip,F1991_G_Stata.zip
+1991,Finance,Details on endowment assets,F1991_H_Data_Stata.zip,F1991_H_Stata.zip
+1991,Finance,Selected fund balances,F1991_I_Data_Stata.zip,F1991_I_Stata.zip
+1991,Finance,Hospital revenues,F1991_J_Data_Stata.zip,F1991_J_Stata.zip
+1991,Finance,Physical plant assets,F1991_K_Data_Stata.zip,F1991_K_Stata.zip
+1990,Institutional Characteristics,"Directory information, response status and derived variables",IC90HD_Data_Stata.zip,IC90HD_Stata.zip
+1990,Institutional Characteristics,"Educational offerings, organization, accreditation, admission requirements, and selected services",IC90ABCE_Data_Stata.zip,IC90ABCE_Stata.zip
+1990,Institutional Characteristics,Student charges and program offerings,IC90D_Data_Stata.zip,IC90D_Stata.zip
+1990,Fall Enrollment,Fall enrollment: Response status information of institution,EF90_HD_Data_Stata.zip,EF90_HD_Stata.zip
+1990,Fall Enrollment,"Fall enrollments (Raked Analysis File)  by race-ethnicity, sex, attendance status, and level of student",EF90_A_Data_Stata.zip,EF90_A_Stata.zip
+1990,Completions,Response status,C8990HD_Data_Stata.zip,C8990HD_Stata.zip
+1990,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1989-90",C8990RE_Data_Stata.zip,C8990RE_Stata.zip
+1990,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1989-90",C8990CIP_Data_Stata.zip,C8990CIP_Stata.zip
+1990,Instructional Staff/Salaries,Response status,SAL90_HD_Data_Stata.zip,SAL90_HD_Stata.zip
+1990,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL90_A_Data_Stata.zip,SAL90_A_Stata.zip
+1990,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL90_B_Data_Stata.zip,SAL90_B_Stata.zip
+1990,Finance,Response status,F8990_HD_Data_Stata.zip,F8990_HD_Stata.zip
+1990,Finance,Current funds revenues by source,F8990_A_Data_Stata.zip,F8990_A_Stata.zip
+1990,Finance,Current funds expenditures by function,F8990_B_Data_Stata.zip,F8990_B_Stata.zip
+1990,Finance,Scholarship and fellowship expenditures by source,F8990_E_Data_Stata.zip,F8990_E_Stata.zip
+1989,Institutional Characteristics,"Directory information, educationa offerings, organization and accreditation, admissions and services",IC1989_A_Data_Stata.zip,IC1989_A_Stata.zip
+1989,Institutional Characteristics,"Student charges, financial aid and other information",IC1989_B_Data_Stata.zip,IC1989_B_Stata.zip
+1989,Fall Enrollment,Response status,EF1989_IC_Data_Stata.zip,EF1989_IC_Stata.zip
+1989,Fall Enrollment,"Gender, attendance status, and level of student",EF1989_A_Data_Stata.zip,EF1989_A_Stata.zip
+1989,Completions,Response status,C1989_IC_Data_Stata.zip,C1989_IC_Stata.zip
+1989,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1988-89",C1989_CIP_Data_Stata.zip,C1989_CIP_Stata.zip
+1989,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1988-89",C1989_RE_Data_Stata.zip,C1989_RE_Stata.zip
+1989,Instructional Staff/Salaries,Response status,SAL1989_IC_Data_Stata.zip,SAL1989_IC_Stata.zip
+1989,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1989_A_Data_Stata.zip,SAL1989_A_Stata.zip
+1989,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1989_B_Data_Stata.zip,SAL1989_B_Stata.zip
+1989,Fall Staff,Response status,S1989_IC_Data_Stata.zip,S1989_IC_Stata.zip
+1989,Fall Staff,Full and part-time staff by primary occupational activity and gender,S1989_Data_Stata.zip,S1989_Stata.zip
+1989,Finance,Response status,F1989_IC_Data_Stata.zip,F1989_IC_Stata.zip
+1989,Finance,Current funds revenues by source,F1989_A_Data_Stata.zip,F1989_A_Stata.zip
+1989,Finance,Current funds expenditures by function,F1989_B_Data_Stata.zip,F1989_B_Stata.zip
+1989,Finance,Clarifying questions regarding total E and G expenditures and revenues,F1989_C_Data_Stata.zip,F1989_C_Stata.zip
+1989,Finance,Utility expenditures,F1989_D_Data_Stata.zip,F1989_D_Stata.zip
+1989,Finance,Scholarship and fellowship expenditures by source,F1989_E_Data_Stata.zip,F1989_E_Stata.zip
+1989,Finance,Expenditures for acquisitions of library materials,F1989_F_Data_Stata.zip,F1989_F_Stata.zip
+1989,Finance,Indebtedness on physical plant,F1989_G_Data_Stata.zip,F1989_G_Stata.zip
+1989,Finance,Details on endowment assets,F1989_H_Data_Stata.zip,F1989_H_Stata.zip
+1989,Finance,Selected fund balances,F1989_I_Data_Stata.zip,F1989_I_Stata.zip
+1989,Finance,Hospital revenues,F1989_J_Data_Stata.zip,F1989_J_Stata.zip
+1989,Finance,Physical plant assets,F1989_K_Data_Stata.zip,F1989_K_Stata.zip
+1988,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation, undergraduate and graduate tuition, and admissions",IC1988_A_Data_Stata.zip,IC1988_A_Stata.zip
+1988,Institutional Characteristics,"Services, student charges by program, and first-professional tuition",IC1988_B_Data_Stata.zip,IC1988_B_Stata.zip
+1988,Fall Enrollment,Response status information - enrollment by race/ethnicity,EF1988_IC_Data_Stata.zip,EF1988_IC_Stata.zip
+1988,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF1988_A_Data_Stata.zip,EF1988_A_Stata.zip
+1988,Fall Enrollment,Response status  - residence and migration,RES1988_IC_Data_Stata.zip,RES1988_IC_Stata.zip
+1988,Fall Enrollment,Residence and migration of first-time freshmen,EF1988_C_Data_Stata.zip,EF1988_C_Stata.zip
+1988,Completions,Response status,C1988_IC_Data_Stata.zip,C1988_IC_Stata.zip
+1988,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1987-88",C1988_CIP_Data_Stata.zip,C1988_CIP_Stata.zip
+1988,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level and gender: 1987-88",C1988_A2DIG_Data_Stata.zip,C1988_A2DIG_Stata.zip
+1988,Finance,Finance,F1988_Data_Stata.zip,F1988_Stata.zip
+1987,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation",IC1987_A_Data_Stata.zip,IC1987_A_Stata.zip
+1987,Institutional Characteristics,"Admissions, services, student charges, financial aid and other information",IC1987_B_Data_Stata.zip,IC1987_B_Stata.zip
+1987,Fall Enrollment,Response status,EF1987_IC_Data_Stata.zip,EF1987_IC_Stata.zip
+1987,Fall Enrollment,"Gender, attendance status, and level of student",EF1987_A_Data_Stata.zip,EF1987_A_Stata.zip
+1987,Fall Enrollment,"Age category, gender, attendance status, and level of student",EF1987_B_Data_Stata.zip,EF1987_B_Stata.zip
+1987,Fall Enrollment,Clarifying questions,EF1987_D_Data_Stata.zip,EF1987_D_Stata.zip
+1987,Completions,Response status,C1987_IC_Data_Stata.zip,C1987_IC_Stata.zip
+1987,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1986-87",C1987_CIP_Data_Stata.zip,C1987_CIP_Stata.zip
+1987,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1986-87",C1987_RE_Data_Stata.zip,C1987_RE_Stata.zip
+1987,Instructional Staff/Salaries,Response status,SAL1987_IC_Data_Stata.zip,SAL1987_IC_Stata.zip
+1987,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1987_A_Data_Stata.zip,SAL1987_A_Stata.zip
+1987,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1987_B_Data_Stata.zip,SAL1987_B_Stata.zip
+1987,Fall Staff,Response status,S1987_IC_Data_Stata.zip,S1987_IC_Stata.zip
+1987,Fall Staff,Fall staff,S1987_Data_Stata.zip,S1987_Stata.zip
+1987,Finance,Current funds revenues by source,F1987_A_Data_Stata.zip,F1987_A_Stata.zip
+1987,Finance,Current funds expenditures by function,F1987_B_Data_Stata.zip,F1987_B_Stata.zip
+1987,Finance,Scholarship and fellowship expenditures by source,F1987_E_Data_Stata.zip,F1987_E_Stata.zip
+1987,Finance,Response status,F1987_IC_Data_Stata.zip,F1987_IC_Stata.zip
+1986,Institutional Characteristics,"Directory information, educational offerings, organization and accreditation, admissions, services, and student charges",IC1986_A_Data_Stata.zip,IC1986_A_Stata.zip
+1986,Institutional Characteristics,Financial aid and other information,IC1986_B_Data_Stata.zip,IC1986_B_Stata.zip
+1986,Fall Enrollment,Response status - Fall enrollment,EF1986_IC_Data_Stata.zip,EF1986_IC_Stata.zip
+1986,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF1986_A_Data_Stata.zip,EF1986_A_Stata.zip
+1986,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student",EF1986_ACP_Data_Stata.zip,EF1986_ACP_Stata.zip
+1986,Fall Enrollment,Clarifying questions,EF1986_D_Data_Stata.zip,EF1986_D_Stata.zip
+1986,Fall Enrollment,Response status information - Residence and migration,RES1986_IC_Data_Stata.zip,RES1986_IC_Stata.zip
+1986,Fall Enrollment,Residence and migration of first-time freshmen,EF1986_C_Data_Stata.zip,EF1986_C_Stata.zip
+1986,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1985-86",C1986_CIP_Data_Stata.zip,C1986_CIP_Stata.zip
+1986,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level and gender: 1985-86",C1986_A2dig_Data_Stata.zip,C1986_A2dig_Stata.zip
+1986,Finance,Finance,F1986_Data_Stata.zip,F1986_Stata.zip
+1985,Institutional Characteristics,Institutional characteristics,IC1985_Data_Stata.zip,IC1985_Stata.zip
+1985,Fall Enrollment,"Gender, attendance status and level of student",EF1985_Data_Stata.zip,EF1985_Stata.zip
+1985,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1984-85",C1985_CIP_Data_Stata.zip,C1985_CIP_Stata.zip
+1985,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level, race/ethnicity, and gender: 1984-85",C1985_RE_Data_Stata.zip,C1985_RE_Stata.zip
+1985,Completions,Response status,C1985_IC_Data_Stata.zip,C1985_IC_Stata.zip
+1985,Instructional Staff/Salaries,Response status,SAL1985_IC_Data_Stata.zip,SAL1985_IC_Stata.zip
+1985,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1985_A_Data_Stata.zip,SAL1985_A_Stata.zip
+1985,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1985_B_Data_Stata.zip,SAL1985_B_Stata.zip
+1985,Finance,Finance,F1985_Data_Stata.zip,F1985_Stata.zip
+1984,Institutional Characteristics,Institutional characteristics,IC1984_Data_Stata.zip,IC1984_Stata.zip
+1984,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF1984_Data_Stata.zip,EF1984_Stata.zip
+1984,Completions,"Awards/degrees conferred by program (6-digit CIP code), award level and gender: 1983-84",C1984_CIP_Data_Stata.zip,C1984_CIP_Stata.zip
+1984,Completions,"Awards/degrees conferred by major discipline (2-digit CIP code), award level and gender: 1983-84",C1984_A2dig_Data_Stata.zip,C1984_A2dig_Stata.zip
+1984,Instructional Staff/Salaries,Response status information,SAL1984_IC_Data_Stata.zip,SAL1984_IC_Stata.zip
+1984,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1984_A_Data_Stata.zip,SAL1984_A_Stata.zip
+1984,Instructional Staff/Salaries,"Fringe benefits of full-time instructional faculty, by contract length",SAL1984_B_Data_Stata.zip,SAL1984_B_Stata.zip
+1984,Finance,Finance,F1984_Data_Stata.zip,F1984_Stata.zip
+1980,Institutional Characteristics,Institutional characteristics,IC1980_Data_Stata.zip,IC1980_Stata.zip
+1980,Fall Enrollment,"Race/ethnicity, gender, attendance status, and level of student",EF1980_A_Data_Stata.zip,EF1980_A_Stata.zip
+1980,Fall Enrollment,"Major field of study, race/ethnicity, gender, attendance status, and level of student (major fields)",EF1980_ACP_Data_Stata.zip,EF1980_ACP_Stata.zip
+1980,Completions,"Subbaccalaureate awards/degrees conferred by detailed program, award level and gender: 1979-80",C1980SUBBA_CIP_Data_Stata.zip,C1980SUBBA_CIP_Stata.zip
+1980,Completions,"Subbaccalaureate awards/degrees conferred by major discipline (2-digit code), award level and gender: 1979-80",C1980SUBBA_2DIG_Data_Stata.zip,C1980SUBBA_2DIG_Stata.zip
+1980,Completions,"Bachelor degrees and above  conferred by detailed program, award level and gender: 1979-80",C1980_4ORMORE_CIP_Data_Stata.zip,C1980_4ORMORE_CIP_Stata.zip
+1980,Completions,"Bachelor degrees and above  conferred by major discipline (2 digit code), award level and gender: 1979-80",C1980_4ORMORE_2DIG_Data_Stata.zip,C1980_4ORMORE_2DIG_Stata.zip
+1980,Instructional Staff/Salaries,Salaries and tenure of full-time instructional faculty,SAL1980_A_Data_Stata.zip,SAL1980_A_Stata.zip
+1980,Instructional Staff/Salaries,Fringe benefits of full-time instructional faculty,SAL1980_B_Data_Stata.zip,SAL1980_B_Stata.zip
+1980,Finance,Finance,F1980_Data_Stata.zip,F1980_Stata.zip

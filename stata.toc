@@ -1,0 +1,5 @@
+*! TOC File
+v 3
+d A program for interacting with the Integrated Postsecondary Education Data System (IPEDS)
+
+p ipeds A program for downloading, cleaning, and working with data from the publicly available IPEDS data center.

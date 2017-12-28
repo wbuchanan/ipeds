@@ -1,0 +1,27 @@
+d 'IPEDS': A Stata package for working with and accessing the Integrated Postsecondary Education Data System (IPEDS) public files
+d
+d ipeds provides an interface to search for available files by year, survey
+d group, and/or the title of the survey.  Upon selection, users will be able
+d to download the necessary data files, scripts, and produced combined 
+d longitudinal data sets for additional analysis.
+d
+d KW: Education
+d KW: Postsecondary
+d KW: US Colleges
+d KW: IPEDS
+d KW: US Department of Education
+d
+d Requires: Stata version 13
+d 
+d Distribution-Date: 20171228
+d
+d Author: Billy Buchanan, Fayette County Public Schools
+d Support: email Billy.Buchanan@fayette.kyschools.us
+d
+f ipeds.ado
+f ipeds.mata
+f ipedsdb.csv
+f ipeds.mlib
+f ipeds.sthlp
+
+
