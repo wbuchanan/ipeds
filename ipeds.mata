@@ -1,5 +1,13 @@
+/*******************************************************************************
+*  *
+*  *
+*  *
+*******************************************************************************/
+
+// Starts Mata session
 mata:
 
+// Clears existing material from Mata
 mata clear 
 
 // Defines the Ipeds class
@@ -15,7 +23,11 @@ class Ipeds {
 		string scalar ipedsroot
 		
 		// Class constructor		
-		void new(), listAllYears(), listAllSurveys(), listAllTitles()
+		void new(), listAllYears(), listAllSurveys(), listAllTitles(),
+			 listAllRevised(), listAllPreliminary()
+			 
+		// Function that provides search functionality to class
+		string matrix search()
 
 	// Private member variables	
 	private :	
@@ -24,7 +36,7 @@ class Ipeds {
 		pointer scalar 	yearIDs, surveyIDs, titleIDs, 
 						surveyByYearIDs, titleByYearIDs,
 						titleBySurveyIDs, titleBySurveyAndYearIDs,
-						years, surveys, titles
+						years, surveys, titles, revised, preliminary
 			
 } // End of Class definition
 
@@ -67,31 +79,181 @@ void Ipeds::new() {
 	// Creates pointer to list of distinct identifiers
 	this.titleBySurveyAndYearIDs = &uniqrows(this.ipedsdb[., (1, 2, 3, 6)])
 	
+	// Pointer to identifying information for revised records
+	this.revised = &select(this.ipedsdb[., (1, 2, 3, 6)], this.ipedsdb[., 7] :== "1")
+	
+	// Pointer to identifying information for preliminary records
+	this.preliminary = &select(this.ipedsdb[., (1, 2, 3, 6)], this.ipedsdb[., 8] :== "1")
+	
 } // End of constructor definition
 
+// Defines method for searching all available files and returning file names
+string matrix Ipeds::search(| 	string scalar years, 
+								string scalar surveys, 
+								string scalar titles, 
+								string scalar ids,
+								string scalar revised, 
+								string scalar preliminary) {
+	
+	// String matrix used to store results
+	string matrix retval
+	
+	// Need string scalars to handle missing options
+	string scalar f1, f2, f3, f6, f7, f8
+	
+	// If the year value isn't specified use a wildcard regex
+	if (regexm(years, "[0-9]+") != 1) f1 = ".*"
+	
+	// Otherwise use the supplied year value
+	else f1 = years
+	
+	// If no survey name is passed use a wildcard regex
+	if (surveys == "") f2 = ".*" 
+	
+	// Otherwise use the supplied value
+	else f2 = surveys
+	
+	// If no survey title is passed use a wildcard regex
+	if (titles == "") f3 = ".*"
+	
+	// Otherwise use the supplied value
+	else f3 = titles
+	
+	// If an invalid id value is passed use a wildcard regex
+	if (regexm(ids, "[0-9]+") != 1) f6 = ".*"
+	
+	// Otherwise use the supplied year value
+	else f6 = ids
+	
+	// If no value for revised only is passed use a wildcard regex
+	if (revised != "" | revised != "1" | revised != "0") f7 = ".*"
+	
+	// Otherwise use the supplied value
+	else f7 = revised
+	
+	// If no value for preliminary only is passed use a wildcard regex
+	if (preliminary == "" | preliminary != "1" | preliminary != "0") f8 = ".*"
+	
+	// Otherwise use the supplied value
+	else f8 = preliminary
+	
+	// Select all the records that match across the regex parameters and return
+	// the data set name and the script file name
+	retval = select(this.ipedsdb[., (1, 2, 6, 4, 5)], 
+							rowsum((regexm(this.ipedsdb[., 1], f1), 
+									regexm(this.ipedsdb[., 2], f2), 
+									regexm(this.ipedsdb[., 3], f3), 
+									regexm(this.ipedsdb[., 6], f6),
+									regexm(this.ipedsdb[., 7], f7), 
+									regexm(this.ipedsdb[., 8], f8))) :== 6)
+									
+	// Returns the string matrix								
+	return(retval)
+	
+} // End of Method definition for search functionality
+
+// Method to print all available years to the string
 void Ipeds::listAllYears() {
+
+	// Declares iterator for loop below
 	real scalar i
-	printf("Years Available : ")
+	
+	// Prints heading for the returned results
+	printf("\nYears Available : \n")
+
+	// Loops over the records referenced by the years pointer
 	for(i = 1; i <= rows(*this.years); i++) {
+	
+		// Prints a formatted string with each datum on its own line
 		printf("\n\t%s", (*this.years)[i, 1])
-	}
-}
+							
+	} // End of Loop
+	
+} // End of Method definition
 
+// Method to print all survey names to the screen
 void Ipeds::listAllSurveys() {
-	real scalar i
-	printf("Surveys Available : ")
-	for(i = 1; i <= rows(*this.surveys); i++) {
-		printf("\n\t%s", (*this.surveys)[i, 1])
-	}
-}
 
-void Ipeds::listAllTitles() {
+	// Declares iterator for loop below
 	real scalar i
-	printf("Titles Available : ")
+	
+	// Prints heading for the returned results
+	printf("\nSurveys Available : \n")
+
+	// Loops over the records referenced by the survey pointer
+	for(i = 1; i <= rows(*this.surveys); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("\n\t%s", (*this.surveys)[i, 1])
+							
+	} // End of Loop
+	
+} // End of Method definition
+
+// Method to print all survey titles to the screen
+void Ipeds::listAllTitles() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nTitles Available : \n")
+
+	// Loops over the records referenced by the title pointer
 	for(i = 1; i <= rows(*this.titles); i++) {
+	
+		// Prints a formatted string with each datum on its own line
 		printf("\n\t%s", (*this.titles)[i, 1])
-	}
-}
+							
+	} // End of Loop
+	
+} // End of Method definition
+
+// Method to print the list of all revised data to screen
+void Ipeds::listAllRevised() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nRevised Data Available : \n\n")
+	
+	// Loops over the records referenced by the pointer
+	for(i = 1; i <= rows(*this.revised); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("Survey Year\t-\t%s\nSurvey Name\t-\t%s\nSurvey Title\t-\t%s\nID Number\t-\t%s\n\n", 
+							(*this.revised)[i, 1], 
+							(*this.revised)[i, 2], 
+							(*this.revised)[i, 3],
+							(*this.revised)[i, 4])
+							
+	} // End of Loop
+	
+} // End of Method definition
+
+// Method to print the list of all preliminary released data to screen
+void Ipeds::listAllPreliminary() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nPreliminary Data Available : \n\n")
+	
+	// Loops over the records referenced by the pointer 
+	for(i = 1; i <= rows(*this.preliminary); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("Survey Year\t-\t%s\nSurvey Name\t-\t%s\nSurvey Title\t-\t%s\nID Number\t-\t%s\n\n", 
+							(*this.preliminary)[i, 1], 
+							(*this.preliminary)[i, 2], 
+							(*this.preliminary)[i, 3],
+							(*this.preliminary)[i, 4])
+							
+	} // End of Loop
+	
+} // End of Method definition
 
 // Function to retrieve string matrix with look up data
 string matrix getIpeds() {
@@ -140,7 +302,7 @@ string matrix loadRawMatrix(string scalar savepath) {
 	string matrix ipedsdb
 	
 	// Initializes string matrix
-	ipedsdb = J(963, 6, "")
+	ipedsdb = J(963, 8, "")
 
 	// dbfh csv file handle, i = iterator, writer = file handle for writing to disk
 	real scalar dbfh, i, writer
@@ -171,7 +333,12 @@ string matrix loadRawMatrix(string scalar savepath) {
 		line = fget(dbfh)
 		
 		// Stores this record in the string matrix along with a record ID
-		ipedsdb[i, (1..6)] = (select(tokens(line, ","), tokens(line, ",") :!= ","), strofreal(i))	
+		ipedsdb[i, (1..6)] = (select(tokens(line, ","), 
+								tokens(line, ",") :!= ","), 
+								strofreal(i))
+		
+		ipedsdb[i, (7, 8)] = (	strofreal(regexm(ipedsdb[i, 3], "revised")), 
+								strofreal(regexm(ipedsdb[i, 3], "preliminary")))	
 		
 	} // End of Loop over records in CSV file
 	
@@ -221,7 +388,8 @@ Parallel to that, there will also be combinations of year by survey, etc... type
 search vectors.
 */
 x = Ipeds()
-x.listAllYears()
-x.listAllSurveys()
-x.listAllTitles()
+x.search("", "staff")
+
+
+
 end
