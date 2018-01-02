@@ -13,7 +13,7 @@ d KW: US Department of Education
 d
 d Requires: Stata version 13
 d 
-d Distribution-Date: 20171228
+d Distribution-Date: 20180102
 d
 d Author: Billy Buchanan, Fayette County Public Schools
 d Support: email Billy.Buchanan@fayette.kyschools.us
@@ -21,7 +21,6 @@ d
 f ipeds.ado
 f ipeds.mata
 f ipedsdb.csv
-f ipeds.mlib
 f ipeds.sthlp
 
 
