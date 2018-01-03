@@ -1,14 +1,29 @@
 /*******************************************************************************
-*  *
-*  *
-*  *
+*                                                                              *
+* Defines a Mata class object for working with IPEDS data.                     *
+*                                                                              *
+* Dependencies -                                                               *
+*     ipedsdb.csv : File used to build string matrix initially.  After first   *
+*          build, the constructor will use a compiled matrix file for faster   * 
+*          loading of the data.  Will need to address updates to this file in  *
+*          future releases.                                                    *
+*                                                                              *
+* Workflow -                                                                   *
+*     Ipeds() -> list...() | search() -> downloadBy...()                       *
+*     Class constructor builds internal matrix and creates several pointers to * 
+*     specific fields that will allow users to browse available years,         * 
+*     surveys, and/or survey titles in addition to search functionality.  The  *
+*     user can either use a search to define the files to download/unzip or    *
+*     can specify one or more file IDs to download either the Stata data set,  * 
+*     a Stata script file, or both.                                            *
+*                                                                              *
 *******************************************************************************/
 
 // Starts Mata session
 mata:
 
 // Clears existing material from Mata
-mata clear 
+mata clear
 
 // Defines the Ipeds class
 class Ipeds {
@@ -20,15 +35,23 @@ class Ipeds {
 		string matrix ipedsdb
 		
 		// Member variable storing the root directory/url for all files
-		string scalar ipedsroot
+		string scalar ipedsroot, colraw
 		
 		// Class constructor		
 		void new(), listAllYears(), listAllSurveys(), listAllTitles(),
-			 listAllRevised(), listAllPreliminary()
+			 listAllRevised(), listAllPreliminary(), listAllData(), 
+			 replaySearch(), downloadBySearch(), downloadByID(), 
+			 downloadHandler()
 			 
 		// Function that provides search functionality to class
 		string matrix search()
 
+	// Protected member variables
+	protected : 
+	
+		// Container to store search results for easy downloading/assembly
+		pointer scalar searchResults
+		
 	// Private member variables	
 	private :	
 	
@@ -36,57 +59,197 @@ class Ipeds {
 		pointer scalar 	yearIDs, surveyIDs, titleIDs, 
 						surveyByYearIDs, titleByYearIDs,
 						titleBySurveyIDs, titleBySurveyAndYearIDs,
-						years, surveys, titles, revised, preliminary
+						years, surveys, titles, revised, preliminary, db
+		
+		// Pointer used to store state of the class and enforce singleton pattern
+		pointer() scalar singleton
+						
+		// Internal function used to return only file names from ipedsdb				
+		string rowvector getFileNames()	
+		
+		void checkDirectory()
+		
+		string matrix getIpeds(), loadRawMatrix(), loadCompiledMatrix()
 			
 } // End of Class definition
 
 // Class constructor definition
 void Ipeds::new() {
-	
-	// Root for all data sets and script files
-	this.ipedsroot = "https://nces.ed.gov/ipeds/datacenter/data"
 
-	// Creates new string matrix
-	this.ipedsdb = getIpeds()
-	
-	// Pointer to unique value of years
-	this.years = &uniqrows(this.ipedsdb[., 1])
-	
-	// Pointer to unique value of survey names
-	this.surveys = &uniqrows(this.ipedsdb[., 2])
-	
-	// Pointer to unique values of title names
-	this.titles = &uniqrows(this.ipedsdb[., 3])
+	// Stores error message in a string scalar
+	string rowvector errmsg
 
-	// Creates pointer to list of distinct years
-	this.yearIDs = &uniqrows(this.ipedsdb[., (1, 6)])
+	// Stores the error message for later display/formatting
+	errmsg = (	"Object ipeds of class Ipeds already exists.",  
+				"DO NOT USE THIS OBJECT!",
+				"Use the existing ipeds object instead.")
+		
+	// Initializes the singleton member with the single instance name
+	this.singleton = valofexternal("ipeds")
+
+	// Test whether or not the variable ipeds exists in the global namespace
+	if ((this.singleton) == J(0, 0, .)) {
 	
-	// Creates pointer to list of distinct surveys across years
-	this.surveyIDs = &uniqrows(this.ipedsdb[., (2, 6)])
+		// Root for all data sets and script files
+		this.ipedsroot = "https://nces.ed.gov/ipeds/datacenter/data/"
+
+		// Creates new string matrix
+		this.ipedsdb = getIpeds()
+		
+		// Sets pointer to ipedsdb
+		db = &this.ipedsdb
+		
+		// Pointer to unique value of years
+		this.years = &uniqrows(this.ipedsdb[., 1])
+		
+		// Pointer to unique value of survey names
+		this.surveys = &uniqrows(this.ipedsdb[., 2])
+		
+		// Pointer to unique values of title names
+		this.titles = &uniqrows(this.ipedsdb[., 3])
+
+		// Creates pointer to list of distinct years
+		this.yearIDs = &uniqrows(this.ipedsdb[., (1, 6)])
+		
+		// Creates pointer to list of distinct surveys across years
+		this.surveyIDs = &uniqrows(this.ipedsdb[., (2, 6)])
+		
+		// Creates pointer to list of distinct titles across years
+		this.titleIDs = &uniqrows(this.ipedsdb[., (3, 6)])
+		
+		// Creates pointer to list of distinct surveys by year
+		this.surveyByYearIDs = &uniqrows(this.ipedsdb[., (1, 2, 6)])
+		
+		// Creates pointer to list of distinct titles by year
+		this.titleByYearIDs = &uniqrows(this.ipedsdb[., (1, 3, 6)])
+		
+		// Creates pointer to list of distinct titles by survey name
+		this.titleBySurveyIDs = &uniqrows(this.ipedsdb[., (2, 3, 6)])
+		
+		// Creates pointer to list of distinct identifiers
+		this.titleBySurveyAndYearIDs = &uniqrows(this.ipedsdb[., (1, 2, 3, 6)])
+		
+		// Pointer to identifying information for revised records
+		this.revised = &select(this.ipedsdb[., (1, 2, 3, 6)], this.ipedsdb[., 7] :== "1")
+		
+		// Pointer to identifying information for preliminary records
+		this.preliminary = &select(this.ipedsdb[., (1, 2, 3, 6)], this.ipedsdb[., 8] :== "1")
+				
+		this.singleton = findexternal("ipeds")
+		
+	} // End IF Block for case where object is already initialized 
 	
-	// Creates pointer to list of distinct titles across years
-	this.titleIDs = &uniqrows(this.ipedsdb[., (3, 6)])
+	// If the object already exists
+	else {
 	
-	// Creates pointer to list of distinct surveys by year
-	this.surveyByYearIDs = &uniqrows(this.ipedsdb[., (1, 2, 6)])
-	
-	// Creates pointer to list of distinct titles by year
-	this.titleByYearIDs = &uniqrows(this.ipedsdb[., (1, 3, 6)])
-	
-	// Creates pointer to list of distinct titles by survey name
-	this.titleBySurveyIDs = &uniqrows(this.ipedsdb[., (2, 3, 6)])
-	
-	// Creates pointer to list of distinct identifiers
-	this.titleBySurveyAndYearIDs = &uniqrows(this.ipedsdb[., (1, 2, 3, 6)])
-	
-	// Pointer to identifying information for revised records
-	this.revised = &select(this.ipedsdb[., (1, 2, 3, 6)], this.ipedsdb[., 7] :== "1")
-	
-	// Pointer to identifying information for preliminary records
-	this.preliminary = &select(this.ipedsdb[., (1, 2, 3, 6)], this.ipedsdb[., 8] :== "1")
+		// Print message to screen when object already exists
+		display(sprintf("{txt}%s", errmsg[1, 1]))
+		display(sprintf("{err}%s", errmsg[1, 2]))
+		display(sprintf("{res}%s", errmsg[1, 3])) 
+		
+	} // End ELSE Block for existing ipeds object
 	
 } // End of constructor definition
 
+// Method to download data/script files based on search results
+void Ipeds::downloadBySearch(| string scalar savepath, real scalar files) {
+
+	// Calls the download by ID method using ID values from the search results
+	this.downloadByID((*this.searchResults)[., 1]', savepath, files)
+
+} // End of Method definition for download by search method
+
+// Method to download data/script files based on ID numbers
+void Ipeds::downloadByID(string rowvector ids, | string scalar savepath, 
+						 real scalar files) {
+	
+	// Member variable used for iterating over the ids
+	real scalar i
+		
+	// Rowvector used to store the names of the files to download
+	string rowvector filenames
+	
+	// Loop over the IDs passed to the method
+	for (i = 1; i <= cols(ids); i++) {
+	
+		// Calls the download handler method
+		this.downloadHandler(this.getFileNames(ids[1, i], files), savepath) 
+			
+	} // End of the loop over the result set
+	
+} // End of the method definition for downloading by ID values
+
+// Defines method to retrieve file names
+string rowvector Ipeds::getFileNames(string scalar id, | real scalar files) {
+	
+	// Container to store results
+	string rowvector fileNames 
+	
+	// If user passes a single argument assume both file names should be returned
+	if (args() == 1) fileNames = select((*db)[., (4, 5)], (*db)[., 6] :== id)
+	
+	// If there are multiple arguments passed
+	else {
+	
+		// Value of 0 used to return both results
+		if (files == 0) fileNames = select((*db)[., (4, 5)], (*db)[., 6] :== id)
+		
+		// Value of 1 used to return the data file name only
+		else if (files == 1) fileNames = select((*db)[., 4], (*db)[., 6] :== id)
+		
+		// Any other value returns only the Stata script file name
+		else fileNames = select((*db)[., 5], (*db)[., 6] :== id)
+
+	} // End ELSE Block for arguments passed
+	
+	// Returns the string rowvector with the file names
+	return(fileNames)
+	
+} // End of Method definition
+
+// Defines a method to handle the downloading and decompression of the files
+void Ipeds::downloadHandler(string matrix files, string scalar savepath) {
+
+	// String used to construct the Stata command to copy the files
+	string scalar copycmd, unzipcmd
+	
+	// Start of the string
+	copycmd = "copy " + this.ipedsroot
+	
+	// Add command name to the unzipcmd string
+	unzipcmd = "unzipfile "
+	
+	// Copies the first file
+	stata(copycmd + files[1, 1] + " " + savepath + files[1, 1])
+	
+	// If user wants to download data and script this will handle retrieving the
+	// script file
+	if (cols(files) == 2) {
+	
+		// Executes the copy command to copy the script file
+		stata(copycmd + files[1, 2] + " " + savepath + files[1, 2])	
+		
+		// Executes the unzipfile command to decompress the downloaded file
+		stata(unzipcmd + savepath + files[1, 2])
+		
+	} // End IF Block for case where the user wants the data and script files
+	
+	// Executes the unzipfile command to decompress the downloaded file
+	stata(unzipcmd + savepath + files[1, 1])
+		
+} // End of the downloadHandler method definition
+
+// Method to print search results to screen again
+void Ipeds::replaySearch() {
+	
+	// Make sure the matrix has values to display first
+	if (this.searchResults != NULL) (*this.searchResults)[., (1..4)]
+	
+	// If it doesn't display a message
+	else printf("You need to search IPEDS prior to replaying the search results")
+	
+} // End of replay method
+		
 // Defines method for searching all available files and returning file names
 string matrix Ipeds::search(| 	string scalar years, 
 								string scalar surveys, 
@@ -95,14 +258,11 @@ string matrix Ipeds::search(| 	string scalar years,
 								string scalar revised, 
 								string scalar preliminary) {
 	
-	// String matrix used to store results
-	string matrix retval
-	
 	// Need string scalars to handle missing options
 	string scalar f1, f2, f3, f6, f7, f8
 	
 	// If the year value isn't specified use a wildcard regex
-	if (regexm(years, "[0-9]+") != 1) f1 = ".*"
+	if (ustrregexm(years, "[0-9]+") != 1) f1 = ".*"
 	
 	// Otherwise use the supplied year value
 	else f1 = years
@@ -139,16 +299,16 @@ string matrix Ipeds::search(| 	string scalar years,
 	
 	// Select all the records that match across the regex parameters and return
 	// the data set name and the script file name
-	retval = select(this.ipedsdb[., (1, 2, 6, 4, 5)], 
-							rowsum((regexm(this.ipedsdb[., 1], f1), 
-									regexm(this.ipedsdb[., 2], f2), 
-									regexm(this.ipedsdb[., 3], f3), 
-									regexm(this.ipedsdb[., 6], f6),
-									regexm(this.ipedsdb[., 7], f7), 
-									regexm(this.ipedsdb[., 8], f8))) :== 6)
+	this.searchResults = &select(this.ipedsdb[., (6, 1, 2, 3, 4, 5)], 
+							rowsum((ustrregexm(this.ipedsdb[., 1], f1, 1), 
+									ustrregexm(this.ipedsdb[., 2], f2, 1), 
+									ustrregexm(this.ipedsdb[., 3], f3, 1), 
+									ustrregexm(this.ipedsdb[., 6], f6, 1),
+									ustrregexm(this.ipedsdb[., 7], f7, 1), 
+									ustrregexm(this.ipedsdb[., 8], f8, 1))) :== 6)
 									
 	// Returns the string matrix								
-	return(retval)
+	return((*this.searchResults))
 	
 } // End of Method definition for search functionality
 
@@ -255,8 +415,33 @@ void Ipeds::listAllPreliminary() {
 	
 } // End of Method definition
 
+// Method to print the list of all revised data to screen
+void Ipeds::listAllData() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nIPEDS Data Available : \n\n")
+	
+	// Loops over the records referenced by the pointer
+	for(i = 1; i <= rows(*this.db); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("Survey Year\t-\t%s\nSurvey Name\t-\t%s\nSurvey Title\t-\t%s\nID Number\t-\t%s\nRevised\t-\t%s\nPreliminary\t-\t%s\n\n", 
+							(*this.db)[i, 1], 
+							(*this.db)[i, 2], 
+							(*this.db)[i, 3],
+							(*this.db)[i, 4],
+							(*this.db)[i, 7],
+							(*this.db)[i, 8])
+							
+	} // End of Loop
+	
+} // End of Method definition
+
 // Function to retrieve string matrix with look up data
-string matrix getIpeds() {
+string matrix Ipeds::getIpeds() {
 
 	// Allocates variables for the search and save paths
 	string scalar searchpath, savepath, compiled
@@ -279,7 +464,7 @@ string matrix getIpeds() {
 } // End of function definition
 
 // Check to see if necessary directory structure exists
-void checkDirectory(string scalar savepath) {
+void Ipeds::checkDirectory(string scalar savepath) {
 
 	// Checks to see if there is an i subdirectory off of PERSONAL on the adopath
 	if (direxists(pathjoin(savepath, "i")) != 1) {
@@ -296,7 +481,7 @@ void checkDirectory(string scalar savepath) {
 } // End of function definition
 
 // Function to parse the matrix from a CSV flat file
-string matrix loadRawMatrix(string scalar savepath) {
+string matrix Ipeds::loadRawMatrix(string scalar savepath) {
 	
 	// Object used to store all of the data
 	string matrix ipedsdb
@@ -309,7 +494,7 @@ string matrix loadRawMatrix(string scalar savepath) {
 	
 	// colraw stores headers, csvpath stores location of csv, line used to store 
 	// individual records from file temporarily
-	string scalar colraw, csvpath, line
+	string scalar csvpath, line
 
 	// Calls the checkDirectory method defined above
 	checkDirectory(savepath)
@@ -324,7 +509,7 @@ string matrix loadRawMatrix(string scalar savepath) {
 	writer = fopen(pathjoin(savepath, "i") + "/ipedsdb.mmat", "w")
 	
 	// Gets column headers
-	colraw = fget(dbfh)
+	this.colraw = fget(dbfh)
 	
 	// Iterates over the rows of the csv file
 	for (i = 1; i <= rows(ipedsdb); i++) {
@@ -357,7 +542,7 @@ string matrix loadRawMatrix(string scalar savepath) {
 } // End of function definition
 
 // If compiled matrix exists use this function for loading
-string matrix loadCompiledMatrix(string scalar path) {
+string matrix Ipeds::loadCompiledMatrix(string scalar path) {
 
 	// File handle value
 	real scalar fh
@@ -379,17 +564,5 @@ string matrix loadCompiledMatrix(string scalar path) {
 	
 } // End of function definition
 
-/*
-The next few lines just provide a quick/easy method to debug some things.  
-These methods will provide highest level "browse" type functionality.  
-The next level below this would also include the ID numbers that could be passed
-to a getter type function.  
-Parallel to that, there will also be combinations of year by survey, etc... type
-search vectors.
-*/
-x = Ipeds()
-x.search("", "staff")
-
-
-
+// End of the class definition
 end
