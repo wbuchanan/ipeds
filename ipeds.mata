@@ -41,7 +41,8 @@ class Ipeds {
 		void new(), listAllYears(), listAllSurveys(), listAllTitles(),
 			 listAllRevised(), listAllPreliminary(), listAllData(), 
 			 replaySearch(), downloadBySearch(), downloadByID(), 
-			 downloadHandler()
+			 downloadHandler(), listSurveysByYear(), listTitleByYear(),
+			 listTitleBySurvey()
 			 
 		// Function that provides search functionality to class
 		string matrix search()
@@ -428,7 +429,7 @@ void Ipeds::listAllData() {
 	for(i = 1; i <= rows(*this.db); i++) {
 	
 		// Prints a formatted string with each datum on its own line
-		printf("Survey Year\t-\t%s\nSurvey Name\t-\t%s\nSurvey Title\t-\t%s\nID Number\t-\t%s\nRevised\t-\t%s\nPreliminary\t-\t%s\n\n", 
+		printf("Survey Year\t-\t%s\nSurvey Name\t-\t%s\nSurvey Title\t-\t%s\nID Number\t-\t%s\nRevised\t\t-\t%s\nPreliminary\t-\t%s\n\n", 
 							(*this.db)[i, 1], 
 							(*this.db)[i, 2], 
 							(*this.db)[i, 3],
@@ -563,6 +564,72 @@ string matrix Ipeds::loadCompiledMatrix(string scalar path) {
 	return(ipeds)
 	
 } // End of function definition
+
+// Method to print unique combinations of survey names and survey years to screen
+void Ipeds::listSurveysByYear() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nSurveys by Year : \n")
+
+	// Loops over the records referenced by the surveyByYearIDs pointer
+	for(i = 1; i <= rows(*this.surveyByYearIDs); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("\n\tID\t-\t%s\tYear\t-\t%s\tSurvey\t-\t%s\n", 
+			(*this.surveyByYearIDs)[i, 3], 
+			(*this.surveyByYearIDs)[i, 1], 
+			(*this.surveyByYearIDs)[i, 2])
+							
+	} // End of Loop
+	
+} // End of Method definition
+
+// Method to print unique combinations of titles and survey years to screen
+void Ipeds::listTitlesByYear() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nTitles by Year : \n")
+
+	// Loops over the records referenced by the titleByYearIDs pointer
+	for(i = 1; i <= rows(*this.titleByYearIDs); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("\n\tID\t-\t%s\tYear\t-\t%s\nTitle : %s\n", 
+			(*this.titleByYearIDs)[i, 3], 
+			(*this.titleByYearIDs)[i, 1], 
+			(*this.titleByYearIDs)[i, 2])
+							
+	} // End of Loop
+	
+} // End of Method definition
+
+// Method to print unique combinations of titles and survey names to screen
+void Ipeds::listTitlesBySurvey() {
+
+	// Declares iterator for loop below
+	real scalar i
+	
+	// Prints heading for the returned results
+	printf("\nTitles by Survey Names : \n")
+
+	// Loops over the records referenced by the titleBySurveyIDs pointer
+	for(i = 1; i <= rows(*this.titleBySurveyIDs); i++) {
+	
+		// Prints a formatted string with each datum on its own line
+		printf("\n\tID\t-\t%s\tSurvey\t-\t%s\nTitle : %s\n", 
+			(*this.titleBySurveyIDs)[i, 3], 
+			(*this.titleBySurveyIDs)[i, 1], 
+			(*this.titleBySurveyIDs)[i, 2])
+							
+	} // End of Loop
+	
+} // End of Method definition
 
 // End of the class definition
 end
