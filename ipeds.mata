@@ -41,8 +41,8 @@ class Ipeds {
 		void new(), listAllYears(), listAllSurveys(), listAllTitles(),
 			 listAllRevised(), listAllPreliminary(), listAllData(), 
 			 replaySearch(), downloadBySearch(), downloadByID(), 
-			 downloadHandler(), listSurveysByYear(), listTitleByYear(),
-			 listTitleBySurvey()
+			 downloadHandler(), listSurveysByYear(), listTitlesByYear(),
+			 listTitlesBySurvey()
 			 
 		// Function that provides search functionality to class
 		string matrix search()
@@ -153,7 +153,7 @@ void Ipeds::new() {
 } // End of constructor definition
 
 // Method to download data/script files based on search results
-void Ipeds::downloadBySearch(| string scalar savepath, real scalar files) {
+void Ipeds::downloadBySearch(| string rowvector savepath, real scalar files) {
 
 	// Calls the download by ID method using ID values from the search results
 	this.downloadByID((*this.searchResults)[., 1]', savepath, files)
@@ -161,7 +161,7 @@ void Ipeds::downloadBySearch(| string scalar savepath, real scalar files) {
 } // End of Method definition for download by search method
 
 // Method to download data/script files based on ID numbers
-void Ipeds::downloadByID(string rowvector ids, | string scalar savepath, 
+void Ipeds::downloadByID(string rowvector ids, | string rowvector savepath, 
 						 real scalar files) {
 	
 	// Member variable used for iterating over the ids
@@ -196,10 +196,10 @@ string rowvector Ipeds::getFileNames(string scalar id, | real scalar files) {
 		if (files == 0) fileNames = select((*db)[., (4, 5)], (*db)[., 6] :== id)
 		
 		// Value of 1 used to return the data file name only
-		else if (files == 1) fileNames = select((*db)[., 4], (*db)[., 6] :== id)
+		else if (files == 1) fileNames = (select((*db)[., 4], (*db)[., 6] :== id), "")
 		
 		// Any other value returns only the Stata script file name
-		else fileNames = select((*db)[., 5], (*db)[., 6] :== id)
+		else fileNames = ("", select((*db)[., 5], (*db)[., 6] :== id))
 
 	} // End ELSE Block for arguments passed
 	
@@ -209,10 +209,35 @@ string rowvector Ipeds::getFileNames(string scalar id, | real scalar files) {
 } // End of Method definition
 
 // Defines a method to handle the downloading and decompression of the files
-void Ipeds::downloadHandler(string matrix files, string scalar savepath) {
+void Ipeds::downloadHandler(string rowvector files, string rowvector savepath) {
+
+	// Variable to store status code from directory changing
+	real scalar dirstatus
 
 	// String used to construct the Stata command to copy the files
-	string scalar copycmd, unzipcmd
+	string scalar copycmd, unzipcmd, datapath, scriptpath
+	
+	// If user specifies two different paths
+	if (cols(savepath) == 2) {
+		
+		// Path for data files is first
+		datapath = savepath[1, 1]
+		
+		// Path for script files is second
+		scriptpath = savepath[1, 2]
+		
+	} // End IF Block for multiple save paths
+	
+	// If a single path is passed to the function
+	else {
+		
+		// Data path is the sole element
+		datapath = savepath[1, 1]
+		
+		// Script path is the same element
+		scriptpath = savepath[1, 1]
+	
+	} // End ELSE Block for single save path
 	
 	// Start of the string
 	copycmd = "copy " + this.ipedsroot
@@ -220,24 +245,41 @@ void Ipeds::downloadHandler(string matrix files, string scalar savepath) {
 	// Add command name to the unzipcmd string
 	unzipcmd = "unzipfile "
 	
-	// Copies the first file
-	stata(copycmd + files[1, 1] + " " + savepath + files[1, 1])
+	// Test if position for the data file name is blank
+	if (files[1, 1] != "") {
 	
-	// If user wants to download data and script this will handle retrieving the
-	// script file
-	if (cols(files) == 2) {
-	
-		// Executes the copy command to copy the script file
-		stata(copycmd + files[1, 2] + " " + savepath + files[1, 2])	
+		// Changes directory to the data directory path
+		dirstatus = _chdir(datapath)
+
+		// Copies the first file
+		stata(copycmd + files[1, 1] + " " + datapath + files[1, 1])
 		
 		// Executes the unzipfile command to decompress the downloaded file
-		stata(unzipcmd + savepath + files[1, 2])
+		stata(unzipcmd + datapath + files[1, 1])
 		
-	} // End IF Block for case where the user wants the data and script files
+		// Now erase the .zip file to clean up the harddrive
+		unlink(datapath + files[1, 1])
+		
+	} // End IF Block for valid data file 
+
+	// If user wants to download data and script this will handle retrieving the
+	// script file
+	if (files[1, 2] != "") {
 	
-	// Executes the unzipfile command to decompress the downloaded file
-	stata(unzipcmd + savepath + files[1, 1])
+		// Changes directory to the path to use for scripts
+		dirstatus = _chdir(scriptpath)
+
+		// Executes the copy command to copy the script file
+		stata(copycmd + files[1, 2] + " " + scriptpath + files[1, 2])	
+				
+		// Executes the unzipfile command to decompress the downloaded file
+		stata(unzipcmd + scriptpath + files[1, 2])
 		
+		// Remove the zip file for the script files
+		stata("erase " + scriptpath + files[1, 2])
+		
+	} // End IF Block for valid Stata script files
+	
 } // End of the downloadHandler method definition
 
 // Method to print search results to screen again

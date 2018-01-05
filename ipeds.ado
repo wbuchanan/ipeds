@@ -1,8 +1,16 @@
 /*******************************************************************************
-*  *
-*  *
-*  *
+*                                                                              *
+* Description -                                                                *
+*     The ipeds command is a suite of several commands related to the access,  *
+*     searching, browsing, and use of IPEDS data.  There are several available *
+*     subcommands and a corresponding Mata library used to power the ado based *
+*     command.                                                                 *
+*                                                                              *
 *******************************************************************************/
+
+*! ipeds
+*! v 0.0.1
+*! 03jan2017
 
 // Drop program if previously loaded in memory
 cap prog drop ipeds
@@ -15,12 +23,14 @@ prog def ipeds, rclass
 	
 	// Define syntax
 	syntax anything(name = subcmd id = "Need to provide ipeds subcommand.")  ///   
-	[, years(passthru) surveys(passthru) titles(passthru) revised(passthru)  ///   
-	preliminary(passthru) ids(passthru)	FROMSearch SAVEPath(passthru) 		 ///   
+	[, Years(passthru) SURVeys(passthru) TItles(passthru) REvised(passthru)  ///   
+	PRELiminary(passthru) ids(passthru)	FROMSearch SAVEPath(passthru) 		 ///   
 	FILETypes(passthru) ]
 	
+	// Stores the current working directory
 	loc current `c(pwd)'
 	
+	// Splits the sub command local into ipedssub and ipedsopt 
 	gettoken ipedssub ipedsopt : subcmd
 	
 	// Create ipeds object in mata
@@ -140,7 +150,7 @@ end
 prog def ipeds_browse, rclass
 
 	// Defines calling syntax
-	syntax anything(name = what id = "Need to specify what to list")
+	syntax [ anything(name = what id = "Need to specify what to list") ]
 
 	// If the sub-sub command is years will list all unique values of years
 	if `"`what'"' == "years" mata: ipeds.listAllYears()
@@ -199,16 +209,46 @@ end
 prog def ipeds_download, rclass
 
 	// Calling syntax for download functionality
-	syntax [, ids(string asis) FROMSearch SAVEPath(string asis) 			 ///   
+	syntax [, ids(string asis) FROMSearch SAVEPath(string) 			 ///   
 	FILETypes(real 0) returnto(string asis) ]
 	
-	cd "`savepath'"
+	// Test for valid filetypes values
+	if !inrange(`filetypes', 0, 2) {
+	
+		// Print more informative error message to results window
+		di as err "filetypes parameter must be one of 0, 1, or 2.  See "	 ///
+		in smcl "{help ipeds}" as err " for additional information."
+		
+		// Returns error code
+		err 198
+		
+	} // End IF Block for in appropriate filetype passed	
+	
+	// If user specifies two save paths assume it is data then script
+	if `: word count `savepath'' == 2 gettoken datapath scriptpath : savepath
+		
+	// If a single path is passed to the savepath parameter
+	else {
+	
+		// Set data path to the single path from the parameter
+		loc datapath `savepath'
+		
+		// Set script path to the single path from the parameter
+		loc scriptpath `savepath'
+		
+	} // End ELSE Block for single save path
+	
+	// Makes sure path ends with a path delimiter
+	if !inlist(substr(`"`datapath'"', -1, 1), "/", "\") == 1 loc datapath `"`datapath'/"'
+	
+	// Makes sure path ends with a path delimiter
+	if !inlist(substr(`"`scriptpath'"', -1, 1), "/", "\") == 1 loc scriptpath `"`scriptpath'/"'
 	
 	// If download is based on most recent search results
 	if `"`fromsearch'"' == "fromsearch" {
 		
 		// Call the download by search method
-		mata: ipeds.downloadBySearch("`savepath'", `filetypes')
+		mata: ipeds.downloadBySearch(("`datapath'", "`scriptpath'"), `filetypes')
 				
 		// Define returned local macro
 		ret loc ipeds_download "Downloaded from search results"
@@ -222,13 +262,14 @@ prog def ipeds_download, rclass
 		loc dlids "(`: subinstr loc ids " " ", ", all')"
 	
 		// Call the download by ID method with the IDs passed 
-		mata: ipeds.downloadByID(`dlids', "`savepath'", `filetypes')
+		mata: ipeds.downloadByID(`dlids', ("`datapath'", "`scriptpath'"), `filetypes')
 		
 		// Define returned local macro
 		ret loc ipeds_download "Downloaded from ID values"
 		
 	} // End ELSE Block for downloading by specific IDs
 	
+	// Moves back to the initial directory when this subroutine was called
 	cd "`returnto'"
 	
 // End of download subroutine definition	
